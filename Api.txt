@@ -1,0 +1,220 @@
+                                 API(application program interface)
+                                 -------------------------------------
+
+what is the api?
+
+*to communicate the two apps
+
+*APIs are mechanisms that enable two software components to communicate with each other
+
+*two or more computer programs to communicate with each other.
+
+*two or more software component to communicate with each other 
+
+* An API is a set of programming code that enables two software components to communicate with each other.
+
+for example : zomoto  
+
+* API is a set of programming code that enables data transmission between one software product and another
+
+*An API, or Application Programming Interface, is a set of protocols, routines, and tools for building software applications. APIs allow different software applications to communicate with each other,
+
+2) when go for api
+
+* if you want to intercat with someone else service you use api  like you create one login page and subit button above to use facebook google 	
+
+
+what is the feature of the api?
+
+*wireless debugging
+
+what is the rest api ?
+
+*rest api(representational state tranfer)
+
+
+
+
+
+* all rest api are api but all rest api are not a api 
+
+
+
+
+what is the rest?
+
+*rest is a stands for representational  state transfer 
+
+
+
+what is the rest api ?
+
+*application programming interface is a software to software interface that allows otherwise sepatate application to interact  and share data
+
+*rest api is a representational state tranfer protocal it use http request to tranfer data between  client and server 
+
+for example : you upload the video in youyube that video store the server and if you delete that video you use rest api
+
+
+what is the resource in rest api
+
+*in the rest api architecture every content is a resource 
+
+*it can be a text file ,htmlpages ,images,videos
+
+
+method of the api
+-----------------
+* post
+*get
+*put
+*delete
+
+POST: The POST method is used to send data to the server 
+
+
+GET: The GET method is used to retrieve data from a server
+
+
+PUT: The PUT method is used to update an existing resource on the server 
+
+
+Delete: the delete method is used remove the data from server
+
+
+different between put and patch
+
+
+put                                                                                                                                      patch
+
+The PUT method is used to completely replace the existing resource with the updated      The PATCH method is used for partial updates to a resource.
+
+Use PUT when you want to replace the entire resource with a new representation.         Use PATCH when you want to apply partial updates to a resource without replacing the entire representation.
+
+
+
+
+10) what is the restful api ?
+
+* RESTful API is an interface that two computer systems use to exchange information securely over the internet
+
+11) different between api and restapi
+
+api                                                             restapi
+
+
+
+
+
+                  Annotation
+                 ---------------
+
+1. @Component Annotation:
+
+* @component annotation indicates that an annotated class is a spring bean / component
+
+*the @component annotation tells spring container to automatically create spring bean
+
+
+2. @autowired annotation
+
+* the @autowired annotation is used to inject the bean automatically
+
+*the @autowired annotation is used in constructor setter and filed injection 
+
+3)@Qualifier annotation
+
+*qualifier annotation is used in conjunction with autowired 
+
+
+
+4)@controller
+
+*  @Controller is used to mark classes as controllers for handling web requests,
+
+5)@service
+
+* @Service is used for business logic components, 
+
+
+6)@repository
+
+* @Repository is used for data access components.
+
+7)@pathvariable
+
+*@PathVariable is used to bind a path variable from the request URL to a method parameter. It
+allows you to access dynamic parts of the URL.
+
+8)@requestbody
+
+* @RequestBody is used to bind the
+request body to a method parameter
+
+9)@getMapping
+
+10)@postMapping
+
+11)@putMapping
+
+12)@deleteMapping
+
+13)@Springboot Application
+
+
+Springboot application annotation combination of springboot configurtion and enable auto configuration and component scan
+
+14)@bean
+
+15)@configuration
+
+*configuration annotation helps in spring annotation based configuration 
+
+if you want configure the bean class then you go for configuration annotation 
+
+16)@scope
+
+17)@responseBody
+
+18)@restController
+
+*@RestController is a combination of @Controller and @ResponseBody. It is used to simplify
+the creation of RESTful web services by automatically serializing the return value of methods
+into the response body.
+
+Spring RestController annotation is used to create RESTful web services using Spring mvc 
+
+19)@requestmapping
+
+*@RequestMapping is used to map web requests to specific controller methods. It allows you to
+define the URL path and HTTP methods that should trigger the execution of a particula
+
+20)@RequestParam
+
+*@RequestParam is used to bind request parameters to method parameters in a controller
+method. It allows you to extract query parameters from the request URL.
+
+21)@EnableAutoConfiguration
+
+22)@componentScan
+
+23)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

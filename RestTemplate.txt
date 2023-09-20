@@ -1,0 +1,105 @@
+REstTemplate
+------------
+
+1)what is the restTemplate
+
+*Rest Template is used to create applications
+
+* resttemplate is communicate one api to other api
+
+
+
+
+
+2)Different method of the restTemplate
+
+*exchage()
+
+*http_method>for entity
+
+*http_method>for object
+
+3) how many ways connect two api
+
+i)RestTemplate
+
+ii)web client
+
+
+
+Response are grouped in five classes
+----------------------------------.-
+
+i)informational response(100-199)
+
+ii)sucessful response(200-299)
+
+iii)Redirect(300-399)
+
+iv)client error(400-499)
+
+v)Server error(500-599)
+
+
+Http common Status code
+-------------------------
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------------------------------------------------------------------
+ii)sucessful response(200-299)
+----------------------------
+
+
+200                                     ok-----------------------------the request has succesed 
+
+
+
+201                                     created-----------------------request has succeed and a new resource has been created
+
+202------                                 acceped-------------the request has been recevied but not yet acted 	upon
+
+204                                     no content-----------------not content is there
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------------------------------------------------------------
+
+iv)client error(400-499)
+--------------------------
+
+
+400                                      bad request--------------------the server couldnot understand the request
+
+401                                     unauthorized-------------------client must authenticate itself to get the requested response
+
+403                                     forbidden--------------------the client doesnot have the access right to the content
+
+404                                     not found---------------------the server can not find the requested resource
+
+405                                   method not allowed---------------the requested method is not understandable by server
+
+409                                    conflict---------------->request conflict with the current state of the server
+
+411                                  length required
+
+414                                    URL too long
+
+415                                      usstoped media type
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+v)Server error(500-599)
+------------------------
+
+500                                       internal server error----the server has encounted a situation it doesnot know  how to handle 
+
+501                                         not implement
+
+502                                         bad gateway
+
+503                                        service unavailable
+
+504                                        gateway timeout
+
+505                                         Http version not supported------>http v ersion used in the request is not supported by the server
+
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------
