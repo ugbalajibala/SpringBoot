@@ -1,0 +1,1358 @@
+z
+what is the camunda
+---------------------
+
+*camunda is a automated work flow engine which will help the user to create a workflow, deploye the workflow and automate the work flow
+
+automated-->without manual intervention
+
+work flow--> sequence of the task 
+
+*camunda is tool to automate your workflow it wont perform any task
+
+
+
+why we for camunda
+------------------
+
+*camunda platform is a lightweight and java based framework , it can be used as a standalone process engin server or embeded inside custom java application
+
+
+
+what is the advandage of camunda over the competitors
+--------------------------------------------------------
+
+*lower process costs
+
+*faster process run
+
+*increased process ability
+
+*less programming effort
+
+*end to end process
+
+
+
+
+what is the bpmn :
+----------------
+
+pbmn--> Business Process Modeling and Notation
+
+pbm--> business process management
+
+*bpm is a set of activity--(activity) task,job
+
+bpmn is a standard which is providing the standand  go and define the work flow with a graphical notation
+
+standard-->set od rules and set of specification
+
+
+
+
+what is the business process 
+----------------------------------------
+
+
+
+*business process is a activity or set of activity--(task,work) that can achieve the specfic business goals , business process sholud have purposeful goals
+
+example of the business processing : order processing customer onboarding processing ,accounting processing  
+
+What is an example of a business process in real life?
+A real-life example of a business process is employee onboarding. When a company hires a new employee, the HR department starts by sending a welcome email with important documents and information about the company.
+
+
+
+what is the business processing managemant
+----------------------------------------
+
+
+
+*business process management is a organational discipline and how a company create edit and analysis the predicate process that make up the core of its business
+
+
+
+Importance of the business processing
+-----------------------------------------
+
+*improve efficiency
+
+
+
+what is the business process modeling and notation
+-----------------------------------------------------
+
+* pbmn is a standard which providing the stand go and define the work flow  with graphical notation
+
+*business process modelling notation is a graphical representation for business process
+
+
+* the object of the bpmn is to support business process management for both techinal user and business user
+
+
+
+Importance of the business processing modeling and notation
+--------------------------------------------------------------
+
+* bpmn is a standard and simplicity ,power of expression ,implementation of IT
+
+
+---------------------------------------------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------------------------------------------
+
+
+*BPMN element
+----------------
+
+*flow element
+
+*connecting element
+
+*swimlanes 
+
+*artifacts
+
+
+----------------------------------------------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------------------------------------------
+
+
+
+core set of the BPMN element
+-----------------------------
+
+event
+activities
+GateWay
+sequence flow
+message flow
+associates
+data object
+data group
+annotation artifacties
+
+----------------------------------------------------------------------------------------------------------------------------------------
+---------------------------------------------------------------------------------------------------------------------------------------
+
+------------------------------------------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------------------------------------------------
+
+Gateway in BPMN
+----------------------------------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------------------------------
+*exclusive gateway
+---------------------
+
+*only one path can be selected  like if else condition for example  customer can pay  the amount via debit card or credit but not with both
+
+
+*inclusive gateway
+--------------------
+
+*two or more path can be selected  like if else if  else for example customer can pay debit card and credit card
+
+
+*parallel gateway
+-------------------
+
+*two path selected at time  for example  customer can pay same time 
+
+
+*event based gateway    
+-------------------
+
+* path selected based on the event for example  based on the our required event
+
+Event in BPMN
+---------------------------------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------------------
+
+*Start event
+-------------
+
+* this tgier to start the work flow
+
+*end event 
+-----------
+
+*it end the our work flow 
+
+
+*message event
+-------------
+
+
+
+*Timer event
+-----------------
+
+
+
+
+Tasks in BPMN
+----------------------------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------------------------
+
+Task
+------
+
+*task represented the sigle unit of the work
+
+send task
+----------
+
+if i want some information send from your application to external application and then you go for send task
+
+receive task
+-------------
+
+if i want receive the some information from external application to your application
+
+
+sub process task
+-----------------
+
+* subprocess nothing but  king of the normal work flow  of process
+
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+DMN(Desicion modeling and notation)
+
+
+Embedebd subprocessor 
+----------------------
+
+*embeded sub processor is component activity that cantain other activity such as gateway event..ets fully dependent on the parent process they dont execits separate process
+
+
+different between sub processor and enbeded sub processor
+----------------------------------------------------------
+
+
+sub proessor                                                                    embeded subprocessor
+------------------------------------------------------------------------------------------------------------------------------
+
+sub processor is a separate indepentend process                           embeded subprocessor is you  embededing the in the main process itself
+
+
+
+
+what are the different way to start the application
+---------------------------------------------------
+
+how can run the camunda
+---------------------------
+
+*start process instance
+
+*tasklist and the click the 
+LL
+*restapi
+
+
+
+what are the ways of creating camunda project 
+------------------------------------------------
+
+*spring boot --springboot is a container that container have embeded tomcat server inside the springboot process  engine
+
+*camunda platform inistalizer
+
+*camunda distributed with tomcat
+
+
+what are the deploying way of the camunda
+----------------------------------------
+
+* Camunda Cockpit Deployment
+
+* Camunda Modeler Deployment
+
+*restApi deployment
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+what is the user task
+--------------------
+
+*user task is only user can go on act the task
+
+what are the javadelegate method in camunda
+---------------------------------------------
+
+only one method that name  execute
+
+what is starting of the delegate method
+---------------------------------------
+* execute method
+
+send task
+-----------
+
+if you want send the information from your application to external application then you go for send task
+
+
+*user task
+-------------
+*user task is only user can go on act the task
+
+
+*service task
+---------------
+
+A Service Task is used to invoke services. In Camunda this is done by calling Java code 
+
+
+
+*send task
+------------
+
+*send task is used to send some information from your work flow to external application this is send task
+
+
+
+
+*receive task
+what you some information receive from external application to camunda application
+
+receive task works
+--------------------
+
+receive task wait util receive any message from the external application after that go on next task
+
+
+
+
+
+*manual task
+
+
+
+
+
+
+*script task
+
+
+A Script Task is an automated activity. When a process execution arrives at the Script Task, the corresponding script is executed.
+
+
+if cammunda workflow want execute some script of your work flow then you go for script task
+
+subport script camunda for grovy,javascript,jruby,jython
+-----------------
+
+script type have in camunda
+--------------------------
+*inline script--when you foue or two line of script you go for inline script
+*external resource--when you have more script line then you go for external resourceL
+
+
+
+
+
+*call activity
+
+A call activity is a way to invoke an external process as a subprocess
+
+
+
+*subprocessor
+
+
+
+
+
+*business rule task
+
+* business rule task is decision model
+
+
+
+
+
+different between send task and service task
+-------------------------------------------
+
+only graphical notation 
+
+-------------------------------------------------------------------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+Expression
+------------
+
+*java  class---package name to insert the java class
+
+*delegate expression--to insert above class @service("/new") then that end to insert the delegate expression---#{Service Name}
+
+*external
+
+*connector
+
+*expression
+
+task
+-----------------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------------------
+
+*service task
+---------------
+
+
+* A Service Task is used to invoke services. In Camunda this is done by calling Java code 
+
+
+when you go for service task
+----------------------------
+
+* when you want exciute some business logic in you process and then go for service task
+
+
+
+*user task
+----------
+
+*user task is only user can go on act that task
+
+
+*send task
+-----------
+
+*send task is used to send some information from your work flow to external application this is send task
+
+
+
+*receive task
+--------------
+---------------
+
+* receive task is used to receive the some information from external application to your application then you go for receive task 
+
+
+*script task
+------------
+-----------
+
+*A Script Task is an automated activity. When a process execution arrives at the Script Task, the corresponding script is executed.
+
+
+if cammunda workflow want execute some script of your work flow then you go for script task
+
+subport script camunda for grovy,javascript,jruby,jython
+-----------------
+
+script type have in camunda
+--------------------------
+*inline script--when you foue or two line of script you go for inline script
+*external resource--when you have more script line then you go for external resourceL
+
+
+*business rule task-- not required
+--------------------
+--------------------
+
+
+
+* munal task---not required
+-------------------------
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+Gateway
+-----
+
+a gateway is a fundamental element used to control the flow of a business process based on certain conditions
+
+gateway will decide the direction of the flow which is used to control the flow of a business process based on the certain conditions
+
+different type of the gateway like exclusive ,inclusive, parallel and evend based gateway
+
+gateway is a one of the bpmn element
+
+
+
+
+
+*exclusive gateway
+---------------------
+
+*only one path can be selected  like if else condition for example  customer can pay  the amount via debit card or credit but not with both
+
+
+
+*inclusive gateway
+--------------------
+
+*two or more path can be selected  like if else if  else for example customer can pay debit card and credit card
+
+
+*parallel gateway
+-------------------
+
+*two path selected at time  for example  customer can pay same time 
+
+
+*event based gateway    
+-------------------
+
+* path selected based on the event for example  based on the our required event
+
+
+events
+-----------------------------------------------------------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+*start event	
+-----------------
+
+
+
+
+*none event
+------------
+
+
+
+
+*message start  event
+-------------------------
+
+when i want to start the process based on the process you can go for the message event
+
+
+
+
+*timer event
+------------
+
+
+
+if i want 
+
+
+
+
+*error event
+--------------
+
+
+*escalation event
+-----------------
+
+
+
+*singal event
+--------------
+
+
+
+*cancel and compensation
+-----------------------
+
+
+
+*conditional start event
+-----------------------
+
+* if the specific condition is true start the process and if the specific condition is faluse in stop the process and then you go for conditional start event
+
+
+
+
+*link event
+---------------
+
+
+
+*terminate event
+----------------
+
+
+
+
+subprocess
+----------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------------- 
+
+
+
+*call activity
+----------------
+
+*A call activity is a way to invoke an external process as a subprocess
+
+
+
+
+
+Embedebd subprocessor 
+----------------------
+
+*embeded sub processor is component activity that cantain other activity such as gateway event..ets fully dependent on the parent process they dont execits separate process
+
+
+* different between call acitivity and embeded subprocessor
+---------------------------------------------------------------
+
+call acitivity
+-------------
+*two instance created
+
+embeded subprocess
+-------------------
+only one instance created
+
+
+
+different between sub processor and enbeded sub processor
+----------------------------------------------------------
+
+
+sub proessor                                                                    embeded subprocessor
+------------------------------------------------------------------------------------------------------------------------------
+
+sub processor is a separate indepentend process                           embeded subprocessor is you  embededing the in the main process itself
+
+
+Task
+--------
+*task represented the single unit of the work
+
+
+subprocess
+------------
+
+* subprocess nothing but  king of the normal work flow  of process
+
+
+transtion
+-----------
+
+* transtion is a group of the activity
+
+
+what is subprocess
+----------------------
+
+what is  call activity
+----------------------
+
+A call activity is a way to invoke an external process as a subprocess
+
+
+what is the different between subprocess and normal work flow
+
+what is the embeded subprocess
+---------------------------------
+
+Embedebd subprocessor 
+----------------------
+
+*embeded sub processor is component activity that cantain other activity such as gateway event..ets fully dependent on the parent process they dont execits separate process
+
+
+
+different between start event and none start event
+-----------------------------------------------------------------
+
+
+
+Events
+----------------------------------------
+--------------------------------------------
+
+what are the different type of the events
+-----------------------------------------
+
+*start event
+
+*intermnidate event
+
+*end event
+
+
+
+
+
+different type of the start event
+------------------------------------
+*blank or none start event
+
+*timer start event
+
+*message start event
+
+*signal start event
+
+*conditional start event
+
+
+different type of the intermediate 
+--------------------------------
+
+*message intermediate catch event
+
+*message intermediate throw event
+
+*conditional intermediate catch event
+
+*timer intermediate catch event
+
+*timer intermediate throw event
+
+*signal intermediate catch event
+
+*signal intermediate throw event
+
+
+intermediate event
+---------------------
+
+inbetween two activity is know the intermidate event
+
+
+boundary event
+-----------------
+
+boundary event is a boundary of the activity
+
+
+TimerEvent
+-------------
+
+type
+----
+*time --date---2019-10-01 i dnot know
+
+*time----duration----PT15S--15second
+                 ----PT1H----1Hours
+                -----P14D-----14 days
+
+*time----cycle---------R5/PT10S every cycle 10 second tiger
+
+
+
+--------------------------------------------
+---------------------------------------------
+
+Subprocessor
+-----------------
+
+what is the subprocessor
+---------------------------
+
+** subprocess nothing but  king of the normal work flow  of process and mainly subprocessor used for reusability and group of the activity
+
+embeded subprocessor having a same work flow 
+
+call activity having the outside work flow
+
+
+what are the different type of the subprocessor
+---------------------------------------------------
+
+
+what is  call activity
+----------------------
+
+A call activity is a way to invoke an external process as a subprocessor
+
+for example : the main process instance wait untill the subprocessor is completely ended and then contioune the original process
+
+
+
+what is the embeded subprocess
+---------------------------------
+
+Embedebd subprocessor 
+----------------------
+
+*embeded sub processor is component activity that cantain other activity such as gateway event..ets fully dependent on the parent process they dont execits separate process
+
+
+event subprocessor
+---------------------
+
+*event subprocessor is a subprocessor that is tiggered by event
+
+*event subprocessor might be trigged  using event like message error signal timer events
+
+
+different between embeded subprocessor and call activity
+---------------------------------------------
+-----------------------------------------------------------
+
+embeded subprocess                                              call activity
+
+* only one instance created                                  * two instance created
+
+* depend on the parent process                                *dont depend any process
+
+dont reuse the embeded subprocess                               * reuse the process
+
+
+
+
+api 
+-----
+
+api is a call the service
+
+camunda web application
+-------------------------
+*cocpit
+
+*tasklist
+
+*admin
+
+
+connector
+------------------------------ 
+
+what is the connector
+---------------------
+
+from camunda invoke the some rest api to use the connector
+
+type of the connector
+----------------------
+
+*rest connector
+
+*email connector
+
+*soap connector
+
+what is rest connector
+-----------------------
+
+* from the camunda engine inkove the rest api is called rest connector
+
+* what is the email connector
+-----------------------------
+
+*send the email from your camunda workflow to email server
+
+
+camunda database
+----------------
+
+*camunda having the own database that name is H2 database
+
+camunda connect any database based on the your configuration
+
+
+database
+-----------
+
+what is the schema
+
+what is the table
+
+what is the column
+
+
+camunda database schema
+------------------------
+
+the database schema is a process engine and it is consists of multiple table
+
+
+
+change the database application preperties
+-------------------------------------------
+camunda.bpm.database.type---------------databesa name
+spring.datasource.url=(example)jdbc
+
+
+
+how to pass the one service task to other user task :
+-----------------------------------------------------
+setvariable("you want anythink ", result)
+
+user task form 
+-------------
+id : just pass the before task id or you want pass any variable
+
+label :you want like 
+
+type : you want
+
+
+Camunda platform architecture
+-----------------------------
+------------------------------
+
+*embeded process engine
+-------------------------
+*the process engine is added  as application libarary to custom application ,this way the process engine can easily be turn on or off with the application lifecycle
+
+*shared or container managed process engine
+
+*clustering model
+
+*group of the node to connecting the one database that database name is shared database name
+
+*standlone(remote)process engin server
+
+
+
+------------------------
+spring boot is a runtime container
+
+CMMN
+---
+
+different between message and signal event
+------------------------------------------
+
+* Message events are used to send and receive specific messages  between different processes
+
+message one to one 
+
+
+* Signal events are used for broadcasting signals
+
+signal one to many
+
+when use
+--------
+*Message events are used when you want to  link specific messages with process instances.
+
+*Signal events are often used when you want to trigger an action across different process instances without direct correlation.
+
+*signal event are used when you want to trigger an action across different process instances
+
+
+Camaunda question
+------------------
+
+*what is subprocess
+
+*what is the embeded subprocess
+
+*what is call activity
+
+RestApi question
+----------------
+*what is the restpi
+
+*how to deploy the workflow using restapi
+ 
+*how to get list of running process instance in camunda 7  via postman
+
+*what is the connector
+
+* what are the different type of the connector
+
+database
+-------
+*what are the different type of the database aloow camunda  us to content
+
+*how to connect the database
+
+*what are the predefined tables given by camunda 
+
+
+---------------------------------------------------------------------------------------------------------
+---------------------------------------------------------------------------------------------------------------
+
+what is the DMN ?
+
+what you many by decision?
+
+what you mean by rule?
+
+what is the hit policy
+
+
+
+what is the DMN ?
+
+DMN is a standard 
+
+DMN--decision model and notation
+
+* you go and implement your business  rules in your workflow
+
+when you go for decision model and notation
+-------------------------------------------
+
+*if you want some decision based on the your output then you go for DMN(decision model and notation)
+
+
+Realtime example of the DMN
+------------------------------
+
+*Scenario: A bank wants to automate its loan approval process using Camunda BPM and DMN. The bank has two types of loans: personal loans and business loans. The approval criteria for these loans are different
+
+
+*Scenario: A bank wants to automate the eligibility assessment for credit card applications using Camunda BPM and DMN
+
+
+*Scenario: A retail store wants to automate the process of approving discounts for customer orders.
+
+
+Decision result
+
+*the output of the desicion also called decision result
+
+
+Hit policy
+-----------
+* hit policy is a set in  the hit policy attribute on the decision table xml elememt,
+
+UNIQE
+-------
+
+* if no hit policy is set , then  the default hit policy UNIQUE is used 
+
+
+Hit policy
+----------
+
+*unique
+
+*any 
+
+*first
+
+*priority
+
+*collect
+
+*collect(sum)
+
+*collect(min)
+
+*collect(max)
+
+*collect(count)
+
+*rule order
+
+*output order
+
+
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------
+
+
+what is the rule
+--------------
+
+Each rule contains input and output entries. The input entries are the condition and the output entries the conclusion of the rule.
+
+the role of the hit policy
+----------------------------
+
+*a hit policy specifices how many rules of  a decision  table can be satisified  and which of the satified rules are included in decision result of the table 
+
+
+the hit policy  unique, any , first always return  maximum  of one satified rule 
+
+the hit policy rule order and collect can return multiple satified rule 
+
+
+Unique hit policy
+----------------
+
+*only a single rule can be satified or no rule at all
+
+*if more than one rule is satisfied  the unique hit policy violated 
+
+any hit policy
+-------------
+
+*multiple rules can be satisfied ,however all satified rules must retrun the same output
+
+* if multiple rules are satisfied which genarate different output the any hit policy violated 
+
+first hit policy
+---------------
+
+*multiple rules can be satisfied ,the decision table result contaoins only the output of the first satified rule
+
+rule order hit policy
+--------------------
+
+*multiple rules can be satisfied the decision table result contains output of all satified rules in the order of the rules in the decision table
+
+
+collect hit policy
+------------------
+
+*multiple rules can be satisfied the decision table result contain the output of all satisfied rules in an rantom order as a list
+
+
+*collect is called aggricate 
+--------------------------------
+
+
+
+what are the web application offered by camunda 
+------------------------------------------------
+
+*cockpit
+
+*tasklist
+
+*optimize
+
+*cawwmo
+
+*admin
+
+
+What is the scheduled ?
+------------------------
+
+*scheduled is a call the method again based on the you set timing 
+
+*@scheduled(fixed Rate = 1000) 1000 means is 10 second
+
+*
+
+
+Camunda 7 Architecture
+------------------------
+
+
+   UI layer----------->               modeler                          tasklist                   custom                          cockpit                Admin
+
+                                                                                                  application  
+
+
+    Core layer------------------>  file repository                    engine
+
+
+
+    database layer------------->        Database  
+
+
+
+Camunda 7 architecture have 3 layer 
+--------------------------------------
+
+* UI layer---(modeler---tasklist---custom application---cockpit----admin)
+
+*core layer--(process engine)
+
+*Data base layer---allow any database like mysql....oracal
+
+
+
+three engine is there name is bpmn(business process model and notation) , cmmn( case management model and notatiom),dmn( decision model notation) 
+
+engine is haed of the camunda 
+-------------------------------
+--------------------------------
+
+file repository
+---------------
+
+*whenver you draw diagram from the camunda modeler  this deploy the diagram
+
+modeler
+----------
+
+*modeler is a UI tool and to design a diagram 
+
+tasklist
+-------
+
+*tasklist is a UI page and all the task listout in the tasklist
+
+
+
+custom application
+------------------
+
+*
+
+
+cockpit
+--------
+
+*cockpit is a UI and where you can see how many process running and what are process deployed like this 
+
+admin
+-----
+
+*admin is a where admin activity will do 
+
+
+Database
+---------
+
+*
+
+some request from UI or any top of the ui model and it has to go via process engine only to a database 
+ 	  
+
+----------------------------------------------------------------
+intermediate events
+-------------------
+
+timer boundary event non interrupting----
+
+do not disturb the original flow  
+
+for example :- suppose if you have two user task you use timer boundary event non interrupting that task visible in two usertask 
+
+
+timer boundary event interrupting
+
+distrub the normal flow  
+
+
+type 
+-----------------------------------------------------
+-----------------------------------------------------
+
+*catching------------------------------->
+
+*throwing------------------------------>
+
+*non-interrupting----------------------->
+
+
+
+chennal name : 
+Dpoint
+------------------------------------------------
+
+JSON -- javascript object notation , it is easy for human read and write
+
+
+different between json and xml
+------------------------------
+
+json-----javascript object notation
+
+xml---extensiable markup language
+
+
+json                                                                        xml
+-------------------------------------------------------------------------------------------------------------------------
+
+
+* to store the text base format  like string                              markup language  like tags --html
+
+*it is light weight                                                      it is heavy weight
+
+*json type : string,number,array,boolean                             all xml data should be String 
+
+*retrieving value is easy                                             difficult
+
+------------------------------------------------------------------------------------------------------------------------------
+
+json(String) to convert the object----var obj=json.parse(convert the json);
+
+alert(typeof(obj))---output is object type
+
+document.write(o.name+"age is"+o.age);--Balaji age is 21
+
+
+----------------------------------------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------------------------------------
+
+External task 
+-------------
+
+*external task is  a unit of work that can be performed by external systems, workers, or applications. 
+
+
+Service task
+-----------
+service tasks, which are executed directly within the process engine,
+
+external task
+-------------
+external tasks are designed to be executed outside of the process engine
+
+that require interactions with external systems, manual intervention, or long-duration processing.
+
+
+
+when use the external task
+--------------------------
+
+if you want to interaction with external systems and long duration processing 
+
+
+camunda only do go to the next task
+
+
+
+camunda 7 
+------------
+
+* task handler or worker
+
+task  assign the work to the worker
+
+*camunda engine--workflow you draw and deploy --pushing machasium-camunda engine push the job to the job handler
+
+*pushing machasium-camunda engine push the job to the job handler or task hanlder or worker
+
+camunda 8
+----------
+
+*worker asked to the task work is have 
+
+*polling machanisum 
+
+*taskhadler or worker go and get the work from camunda engine  this is polling machanisum
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
