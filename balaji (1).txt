@@ -1,0 +1,2943 @@
+          
+   java :
+      java is a high level language, object oriented program language but 100% not object oriented program language  (permitive data type), why becaue to use  the primitive data type
+ feature of java :
+       1) simple 
+                  * syntax is simple and easy to understand;
+   
+        2 platform indepentent---> byte code to execute the any other platform so java is platform indepentent
+
+          source code---byecode--machine code
+   ex) windows linux mac os
+      3) robust      
+                *  Java always tries to check errors at runtime and compile time.  
+                *    Java uses a garbage collector to provide a strong memory management system
+       4)  Object-Oriented:
+                         * Everything in Java is in the form of the object. In other words, it has some data and behavior. A Java program must have at least one class and object.
+     5 4. Secure:
+              * Java is a secure language, as Java does not use explicit pointers.
+
+
+
+            class :
+                            //  * class is template is used to create a object and define the object datatype and method
+          * a class is a group of object which have common preperties   next Example: one student class with n number of the student  object with same properties
+* class is a template or blue print for creating different object type
+  
+ class contain :
+                method ,variable,main mathod;
+
+
+                  object :
+                           *   object is a instance of the clss , object is a member of the java class , each object has identity state and behaviour  ,class copy mari,
+
+    memory reference of the class
+examble= 
+     
+
+
+    *  Applications of Java Programming
+                 
+                  Desktop applications
+Web applications
+Mobile applications (Android)
+Cloud computing
+Enterprise applications
+Scientific applications
+Operating Systems
+Embedded systems
+Cryptography
+Smart cards
+Computer games
+       
+
+java environment
+   
+
+        JVM(JAVA virtural machine)
+        JRE(java runtime environment)
+        JDK(java development kit)
+  
+
+    JVM(JAVA virtural machine)
+     
+        Java Virtual Machine provides a runtime environment in which we can execute the bytecode. JVM is platform-independent. It performs the following tasks:
+
+Loading the code
+Verifying the code
+6Executing the code
+Providing a runtime environment
+
+
+     JDK(java development kit)
+  
+
+       Java Development Kit provides an environment that helps to develop and execute the Java program. There are Development Tools in JDK to provide an environment to develop Java programs.
+
+
+     JRE(java runtime environment)
+
+
+      JRE is a collection of tools. These tools together allow the development of applications and provide a runtime environment. JVM is a part of JRE. JRE is also platform-dependent like JVM.
+
+It contains a set of libraries + other files
+
+
+what is the static keyword :-
+
+* static is a keyword that can be decleared with variable method and inner class
+
+*static properity work as common properites for all object
+
+* we can access the static proprities classname.static proprites name
+     
+
+
+   Java Keywords
+
+HOW many keyword in java
+
+52 keyword   -- to use 49 keyword ---to not use goto and const that is reserved keyword
+
+     
+
+abstract	for	new	enum	super
+assert	goto	package	extends	switch
+boolean	if	private	final	synchronized
+break	implements	protected	finally	this
+byte	import	public	float	throw
+case	instance of	continue	while	throws
+catch	int	default	return	transient
+char	interface	do	short	try
+class	long	double	static	void
+const	native	else	strictfp	volatile
+
+
+
+
+     Java Variables
+         
+variable is a name of memory location
+
+variable is used to store the value
+
+
+       hold the value to variable,
+
+     There are the following types of variables in Java basics:
+
+Local Variables
+Class Variables (Static Variables)
+Instance Variables (Non-static Variables)&&(global variable)
+
+
+
+   local variable
+
+* local variable to declear the 
+         
+this variable to declear the method inside and this variable only accecc that  method
+
+        class inside than method irrukum 
+        method inside la oru variable create pannuna  athu local variable
+class inside la two separate method irrukum but frt method vaiablr do not access the second method is know as local variable
+  
+
+    global variable
+this variable only  declear the class inside and outside method 
+   
+
+         global variable nothing but class inside la variable created is knows as global variable and two separate method la global variable access panna mutium 
+
+   
+
+static :
+
+Static variable does not change object to object single object will be created 
+
+       static is keyword, static mainly used to meory management,static depent on the class ,static calling class name,;
+ 
+
+
+     Java Data Types
+         1) a. Primitive Data Types in Java
+         2)b. Non-Primitive Data Types in Java
+   
+      
+      what is the data type?
+
+* defined the type the data like int string char 
+
+ 1) a. Primitive Data Types in Java
+      There are 8 types of primitive data types in Java:
+a. int            4
+b. float          4
+c. char           2
+d. boolean        1
+e. byte           
+f. short
+g. long
+h. double
+
+
+2) non perimitive data type:
+
+
+String.
+Array.
+Class. 
+Interface.
+
+
+  Java Operators
+
+    There are the following types of Java operators;
+
+Arithmetic Operators
+Logical Operators
+Unary Operators
+Assignment Operators
+Ternary Operators
+Relational Operators
+Bitwise Operators
+Shift Operators
+instanceOf operator
+
+  what is operator?
+     operator is a symbol that tell the complier to perform a specific mathematical or logical
+
+
+
+
+   why use the object oriented program?
+
+
+* realworld problem to implementing the program to use the object oriented program
+ 
+
+                   to slove the real world problem
+     
+Java Object Class
+Java OOPs Concept
+naming Convention
+Object and Class
+Method
+Constructor    
+static keyword
+this keyword
+
+
+  jvm.jdk.jre
+------------------
+   
+
+   source code ----->jdk(complier)--------->byte code----jvm------>machine code
+    .java (file)                         .class(file)
+      
+  JVM(java virtual machine)
+      
+   * jvm is  byte code to execute the machine code
+
+     Loading the code
+     Verifying the code
+     Executing the code
+     Providing a runtime environmen
+
+  jRE 
+    * se of libraries + others file that jvm ,if you run the program to provide the environment 
+
+
+  JDk
+      JVM+JRE+development
+    
+
+   
+             constructor :
+                              * constructor is mainly used to variable initialized, no return type , constructor name is must be same as class name,we will create the object automatically called the  constructor,constructor is a collection of code
+
+  why use the constructor :
+                      * to initialized variable
+      
+
+type:
+ parameterized constructors and no-arg constructors
+
+
+   Access modifier 
+------------------
+                     that can be used to control the visibility of filed ,method ,variable,constructor in a class 
+   type :
+     1) public 
+     2) private
+     3)protected
+      4) default
+
+
+  public 
+        
+      this access modifier access from the inside the class outside the class with the package with out the package
+  
+   private
+       this access modifier access the only with the class 
+
+  Default
+           with the package
+   
+protected
+            with the package and outside the package though child class
+
+
+
+ public program
+---------------
+   
+  ppackage com.march14s;
+class A{  
+ static int data=40;  
+static  void msg(){System.out.println("Hello java");}  
+}  
+  
+public class Pub{  
+ public static void main(String args[]){  
+ //  A obj=new A();  
+  // System.out.println(obj.data);//Compile Time Error  
+   //obj.msg();//Compile Time Error 
+	   System.out.println(A.data);//Compile Time Error  
+
+	 
+   }  
+}  
+
+
+ variable 
+        
+      variable is a name of the memory location
+
+       variablr is used to hold the value
+        
+
+
+     There are the following types of variables in Java basics:
+
+Local Variables
+Class Variables (Static Variables)
+Instance Variables (Non-static Variables)&&(global variable)
+
+
+
+   local variable
+         
+
+        class inside than method irrukum 
+        method inside la oru variable create pannuna  athu local variable
+class inside la two separate method irrukum but frt method vaiablr do not access the second method is know as local variable
+  
+
+    global variable
+   
+
+         global variable nothing but class inside la variable created is knows as global variable and two separate method la global variable access panna mutium 
+
+ 
+
+
+
+   Static methods are associated with the class, not objects of the class.
+
+
+
+
+ Static variables are used with the class name and the dot operator, since they are associated with a class, not objects of a class.
+
+
+
+
+
+             method
+    
+    ***what is method?
+
+      method is a collection of the statement grouped together to perform specific task
+for example
+
+We write a method once and use it many times. We do not require to write code again and again
+    
+           class outside la function irrutha is called function
+
+
+      ***what is method?
+
+          class inside la function irrutha is called method
+
+   method type :::
+      
+     1) void ;
+      2) int;
+      
+
+     what is void :
+
+
+               this method is to print the output within the function is know as void ,no return type ,then
+  what is int :
+             return type, then this method is to not print the output within the function but only return ,then only outprint the main function
+      
+      
+
+      Example program 
+              *) without parameter and without create object
+public class add{
+ public static void main(string args[])
+{
+add();
+}
+public static void addition()
+{
+int a=10.b=10,c;
+c=a+b;
+System.out.peinln(c);
+}   
+
+
+      *) without parameter and create object
+class add
+{
+public static void main(String args[])
+{
+   add in=new add();
+in.addition();
+}
+void addition()
+{
+int a=10,b=10,c;
+c=a+b;
+System.out.println(c);
+}       
+  *)with parameter and without create object
+
+class add{
+ 
+public static void main(String args[])
+{
+add(10,20);
+}
+public static void add(int a,intb)
+{
+int c;
+c=a+b;
+System.out.println(c);
+}
+   
+
+   *)with parameter and with create object
+ 
+  class add
+{
+public static void main(string args[])
+{
+add in=new add();
+in.addition();
+}
+void addition(int a,intb)
+{
+int c;
+c=a+b;
+System.out.println(c);
+}
+
+
+    int method
+
+class add
+{
+public static void main(String args[])
+{
+int c=addition();
+System.out.println((c*10));
+}
+public static int addition()
+{
+int a=10,b=10,c;
+c=a+b;
+return c;
+}
+
+ ---
+    * at the time oonly one the inherit pannum 
+ 1.single  :
+      ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------                                                    oops
+
+
+
+oops
+-----
+
+      * oops development is a new programming style having real world thinking 
+
+      *   
+
+why 
+  
+
+    java is a object based so you use the oops 
+
+
+
+object 
+
+     * object is a real world entity------daily usage
+
+
+
+ 
+                                                            inheritance  
+  -----------
+              to  inherit the parent class properties into the  child class  
+
+  inherit==extends ;
+  
+   why use the inheritance 
+---------------------------
+                           * code reusability
+                           * method overriding(runtime polimorphisum)
+
+
+
+example :
+
+
+ syntax
+     
+
+ class parent
+{
+string name="balaji";
+int age=38;
+}
+class child extends parent
+{
+float id=10.0;
+public static void main(String args[])
+{
+child in=new child();
+System.out.println(in.name);
+System.out.println(in.age);
+System.out.println(in.id);
+}
+}
+
+type of inheritance
+-------------------
+                    * single----When a class inherits another class, it is known as a single inheritance
+                    *multilevel----When there is a chain of inheritance, it is known as multilevel inheritance
+                    *hirarchical----When two or more classes inherits a single class, it is known as hierarchical inheritance
+                    * multiple
+                    *hybrid
+ Does not support the java 
+-------------------------
+              * multiple---To reduce the complexity and simplify the language, multiple inheritance is not supported in java
+              * hybrid
+
+example : one child canot have two or more parents it is illegal in real world so java is very near to the real world that why is not suport multiple inheritance
+
+  why 
+ class A
+{
+void add()
+{
+int a=10,b=10,c;
+c=a+b;
+System.out.println(c);
+}
+}
+class B extends A
+{
+void sub()
+{
+int a=10,b=10,c;
+c=a+b;
+System.out.println(c);
+}
+}
+class Samp extends B
+{
+public static void main(String args[])
+{
+Samp in=new Samp();
+in.sub();
+}
+}
+
+
+what is the super class:
+--------------------------
+                                * the class whole feature are inherited is know super class
+
+what is the sub class
+---------------------
+                         * tha class that inherit the other class is know the sub class
+
+
+Polymorphisum=many forms
+---------------
+            * to perfrom single action in different way
+
+Example :   teacher : contact with relation and chidren and stduent and management team 
+
+
+ poly=many
+morphisum=behaviour
+many-forms 
+
+
+* manyforms with same name is know as polymorphisum
+
+
+
+* if your are 
+
+
+ 
+
+
+* teacher is communicate with children one type way 
+
+
+complie time:
+    * when my object identified   which copy of the mrthod that decision happend guring complie time
+* when my object identified which method to be  accessed during runtime 
+
+
+type  :
+    1) method overloading
+     2) method overriding
+
+
+
+ method overloading
+------------------- 
+      if the class multiple method name same but different parameter is know as the mathod over loading
+
+
+
+
+example :   world name : college
+
+
+one college no of student studing that student  name are  different but college name same that time to use the method overloading 
+   
+
+   
+public class MethodOverloading {
+	
+	void demo(){
+		System.out.println("Demo method");
+	}
+	
+	
+	void demo(int a){
+		System.out.println("method with parameter");
+	}
+	
+	
+	public static void main(String[] args) {
+		MethodOverloading ref = new MethodOverloading();
+		ref.demo();
+		
+		
+		ref.demo(5);
+		
+	}
+
+}
+
+
+
+
+ method overriding
+-----------------
+  
+    if child has same method declear in th parent class :
+
+
+
+real world Example  :  bike sales 
+
+
+
+* i have one bike that bike will be coming problem often  i solved that problem the i sold the bike to a person that person little bit chage that bike 
+
+ 
+                  
+
+
+  class A {
+	
+	void demo(){
+		System.out.println("A");
+	}
+	
+	
+	
+}
+public class MethodOverriding extends A {
+	
+	void demo(){
+		System.out.println("Demo method");
+	}
+	
+	
+	void demo(int a){
+		System.out.println("method with parameter");
+	}
+	
+	
+	public static void main(String[] args) {
+		MethodOverriding ref = new MethodOverriding();
+		ref.demo();
+		
+	}
+
+}
+
+
+
+
+
+Abstraction :
+------------
+
+            * hiding the implement detail and showing the only functinality to the user
+  *class behind abstract keyword use pannanum;
+
+  Abstraction class
+                    *abstract class inside must be one method is abstract method ,then mainly define the main method abstract method ,
+
+
+     *A class which is declared with the abstract keyword is known as an abstract class in Java. It can have abstract and non-abstract methods (method with the body).
+
+
+
+
+example  : sending  sms,you just type the text and send a message ,you dont now the internal process about the message delivered
+
+example  : car
+
+
+
+
+  It is use the keyword ---->extends
+--------------------
+
+
+abstarct class
+--------------
+
+* A class which is declared with the abstract keyword is known as an abstract class in Java. It can have abstract and non-abstract methods (method with the body).
+
+* abstract class not support the muliple inheritance
+
+* abstract class have final non final and static non static variable
+
+
+  abstract class Circle
+{
+	abstract void area();
+	void add()
+	{
+		int a=10,b=10;
+		System.out.println(a+""+b);
+	}
+}
+
+public class Inher extends Circle{
+	void area()
+	{
+		System.out.println("a");
+	}
+public static void main(String args[])
+{
+	Inher in=new Inher();
+	in.add();
+}
+}
+
+
+Interface
+
+---------
+
+* interface is a blueprint of the class, interface have only abstract method
+
+interface supprot multiple inheritance
+
+           * interface class inside method full abstract method ,  It is use the keyword ---->implements
+
+  public method is working
+
+
+package com.march15;
+interface Balaji
+{
+	 void add();
+	 void sub();
+}
+interface object 
+{
+	void mul();
+}
+
+ class Bala implements Balaji,object {
+	public void add()
+	{
+		System.out.println("add");
+	}
+ public	void sub()
+	{
+		System.out.println("sub");
+	}
+	public void mul()
+	{
+		System.out.println("mul");
+	}
+	public static void main(String args[])
+	{
+		Bala in=new Bala();
+		in.add();
+		in.sub();
+		in.mul();
+	}
+
+}
+
+
+
+
+              
+
+
+
+Abstract class	                                                                               Interface
+
+1) Abstract class can have abstract and non-abstract methods.	                     Interface can have only abstract methods. Since Java 8, it can have default and static methods also.
+2) Abstract class doesn't support multiple inheritance.	                          Interface supports multiple inheritance.
+3) Abstract class can have final, non-final, static and non-static variables.	         Interface has only static and final variables.
+4) Abstract class can provide the implementation of interface.	                     Interface can't provide the implementation of abstract class.
+5) The abstract keyword is used to declare abstract class.	                             The interface keyword is used to declare interface.
+6) An abstract class can extend another Java class and implement multiple Java interfaces.	An interface can extend another Java interface on
+
+
+
+
+
+
+
+                            Encapsulation
+  
+   *  encapsulation is useful for data hiding and data protection
+
+ *  not allowing user do directlt access data memers and variables but indirectly we can access with help of getter setter method
+
+   *encapsulation acheived thougth various access specifier including private,public ,default
+
+* user not allowing directly access the data memeber but we can indirectly access by use of getter setter method 
+
+
+ 
+
+
+
+
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- ----------------------------------------------t----------------------------------------------------------------
+           -----------------
+
+
+ 
+
+
+  ARRAyS 
+
+Java Arrays
+
+* Normally, an array is a collection of similar type of elements which has contiguous memory location.
+
+*start with the 0 index 
+
+*fixed array size
+
+
+
+Single Dimensional Array in Java
+
+
+     *  Syntax to Declare an Array in Java
+
+                                           *  datatype arrayname[];
+
+
+
+  *   Instantiation of an Array in Java
+
+                                          * arrayRefVar=new datatype[size]; 
+
+
+   *For-each Loop for Java Array  
+
+                                     *for(data_type variable:array){  
+                                          //body of the loop  
+                                                                }  
+
+                         //Java Program to print the array elements using for-each loop  
+                          class Testarray1{  
+                          public static void main(String args[]){  
+                           int arr[]={33,3,4,5};  
+                          //printing array using for-each loop  
+                           for(int i:arr)  
+                          System.out.println(i);  
+                              }}  
+
+
+
+
+                  *  Passing Array to a Method in Java
+
+     
+class Testarray2{ 
+static void min(int arr[]){  
+int min=arr[0];  
+for(int i=1;i<arr.length;i++)  
+ if(min>arr[i])  
+  min=arr[i];  
+  
+System.out.println(min);  
+}  
+  
+public static void main(String args[]){  
+int a[]={33,3,4,5};
+min(a);
+}}  
+    
+
+    
+
+
+                                       *Returning Array from the Method
+
+
+
+
+We can also return an array from the method in Java.
+
+class TestReturnArray{
+static int[] get(){  
+return new int[]{10,30,50,90,60};  
+}  
+  
+public static void main(String args[]){   
+int arr[]=get();  
+for(int i=0;i<arr.length;i++)  
+System.out.println(arr[i]);  
+}}  
+    
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------  
+
+
+
+
+
+    String   :
+----------------------
+                         *What is String in Java?
+
+
+
+Generally, String is a sequence of characters. But in Java, string is an object that represents a sequence of characters. The java.lang.String class is used to create a string object.
+   * string is a non primitive data type, 
+   * string is a immutable-- onces object created it cannot be edited but new string object is created
+
+
+   new keyword use pannuna atha object to create the heap memory this is mutable
+   ------------
+
+   no new keyword use pannum pothu atha object cearted in string constant pool this is immutable, not changable,
+
+  how to create a string object
+-------------------------------
+                                  * by string literal
+                                  * by new word
+
+
+string literal--- string object to store the string constant pool
+--------------
+                * each time you create a string literal the jvm check the string constant pool first , if the string already exits in the pool a reference to the pooled instance is returned if the string doesnt exist in the constant pool a new string instance is created and placecd tn the pool 
+
+
+
+why use literal concept
+----------------------
+                        * to make java more efficient
+
+
+By new keyword--- string object is store heapmemory
+---------------
+
+             * in such case jvm create a new string ovject in normal heapmemory 
+
+
+why is string object are immutable in java?
+
+  * suppose there are 5 reference variable 
+
+
+  * threadsafe
+   * security
+* performance optimazion
+
+   * heap space
+
+why string class is final in java
+---------------------------------
+
+ * the string class being final is because no can override the method of the string class
+
+
+string compare methods
+-----------------------
+     * by using equals() method----------->In Java, the equals() method is used to compare the content of two objects
+   
+    * by using == operator---------------->the == operator is used to compare the references of two objects
+
+    * by compareto()method------------------>The compareTo() method in Java is used to compare two objects of a class
+
+
+
+different between equals and ==
+
+
+equlas                                 ==
+
+* equals is a method                 * == is a operator
+
+* equlas method to compare the          == operator to compare the referenace of the two object 
+content of the two object   
+
+  
+
+String method
+------------
+
+* concat
+* touppercase
+*tolowercase
+*startwith
+*endwith
+*charAt();
+indexof();
+* length();
+*substring
+*equalsIgnoreclass
+*
+
+
+
+
+* different between string and string buffer
+------------------------------------------------
+
+
+String                                                   String buffer
+
+
+* String object is immutable                              * String buffer object is mutable
+
+for example
+
+
+class string                                                 class String buffer
+{                                                              {
+main()                                                          main(){
+
+{           
+String s=new String("balaji");                                    Stringbuffer s=new Stringbuffer("balaji");
+s.concat("bala");                                                  s.append("bala");
+sysout(s);                                                           sysout(s);
+}                                                                        }
+
+o/p  balaji so string is a immutable once object is                o/p balajibala so String buffer is mmutable once object is created can be edited 
+created doesnt edited
+
+* String class equals method to compare the comtent  of the two object        * String buffer class equals method to compare referance of the two object 
+
+* String class uses String constant pool.	                                     StringBuffer uses Heap memory
+
+   Immutable String  
+---------------------
+
+
+             * once String object is created it   cannot be edited but new object is created is known as immutable
+
+        * immutable string is stored in string constant pool 
+
+  mutable String
+-----------------
+
+          * once string object is created it can be edited 
+      
+          * mutable string is store in heap memory
+
+
+          * 
+
+
+   * STRING BUFFER 
+  
+    *STRING BULIDER
+
+
+
+String buffer                                                                                                        String bulider 
+--------------                                                                                                       -------------
+
+                 * Stringbuffer is a mutable                                                                   * String bulider is mutable
+                 * it is thread safe ---thread means----> singlethread                                          * it is not thread safe
+                  * String buffer create pannum pothu must be used the new keyword                              * String buffer create pannum pothu must be used the new keyword
+                  * all method are synchronized method                                                            * it is not synchronized  
+                  * it is le ss efficiend than string buffer                                                       * it is more efficient than string buffer
+                    ** stringbuffer was introced in java 1.5 
+                exam  : mobile youtube;
+
+
+
+what is mean thread safe
+-------------------------
+                              * 
+
+
+
+
+
+String method
+--------------
+
+* concat
+*touppercase
+*toLowercase
+*endswith
+*startwith
+*chatAt()
+*indexof()
+
+
+String buffer and builder method
+
+* append()
+* insert
+* delete
+*reverse             
+               
+              
+               
+
+                
+               
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+String comparsion
+-----------------
+  public static void main(String args[])
+{
+String s1="balaji";
+String s2="azar";
+System.out.println(s1.equals(s2));
+System.out.println(s1==s2);
+System.out.println(s1.compareTo(s2));
+}
+
+
+
+String concatention
+--------------------
+  public static void main(String args[])
+{
+String s1="balaji";
+String s2="azar";
+System.out.println(s1+s2);
+String s3=s1.concat(s2);
+System.out.println(s3);
+}
+
+
+
+substring
+---------
+
+ *A part of String is called substring. In other words, substring is a subset of another String
+
+ public static void main(String args[])
+{
+String s1="balaji";
+System.out.println(s1.subString(2));\\ laji
+System.out.println (s1.substring(2,4));\\la
+}
+
+Java String Methods
+String charAt()------ String compareTo()-------String concat()--------String contains()--------String endsWith()--------String equals()----equalsIgnoreCase()-----------String format()String getBytes()------String getChars()------String indexOf()-----String intern()---String isEmpty()---String join()---String lastIndexOf()---String length()---String replace()------String replaceAll()-----String split()----String startsWith()---String substring()---String toCharArray()----String toLowerCase()----String toUpperCase()----String trim()--  String valueOf()
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+String buffer method
+-------------------
+
+
+1) StringBuffer Class append() Method
+
+
+  *The append() method concatenates the given argument with this String.
+
+
+
+
+public class Append {
+	public static void main(String args[])
+	{
+		StringBuffer  s1=new StringBuffer("balaji");
+		StringBuffer s2=new StringBuffer("azar");        output: balajiazar;
+		System.out.println(s1.append(s2));
+	}
+
+}
+
+
+2) StringBuffer insert() Method
+
+
+*   The insert() method inserts the given String with this string at the given position.
+     
+
+
+   
+public class Insert {
+	public static void main(String ards[])
+	{
+		StringBuffer s1=new StringBuffer("balaji");
+		System.out.println(s1.insert(2,"bala"));     output  : babalalaji
+	}
+
+}
+
+
+
+4) StringBuffer delete() Method
+The delete() method of the StringBuffer class deletes the String from the specified beginIndex to endIndex.
+
+
+public class Delete {
+	public static void main(String args[])
+	{
+		StringBuffer s1=new StringBuffer("balaji");
+		s1.delete(1, 3);                                  ouput baji;
+		System.out.println(s1);
+	}
+
+}
+
+
+
+5) StringBuffer reverse() Method
+The reverse() method of the StringBuilder class reverses the current String.
+
+ 
+
+
+public class Reverse {
+	public static void main(String args[])
+	{
+		StringBuffer in=new StringBuffer("java");
+		in.reverse();                                       ouput  avja;
+		System.out.println(in);
+	}
+
+}
+
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+                                                                            KEYWORD
+                                                                             -------
+                                                                          
+this keyword
+------------
+                * in java it is not  allowed to declear  the two or more varible name same to differtrate that variable to use the this keyword
+
+                 *The this keyword refers to the current object in a method or constructor. and this keyword to eliminate the confision between instance variable and parameter with same name  
+
+
+global variable name same as the local variablr name to differtiate the that variablr to use the this keyword
+ 
+
+
+
+this()
+------
+
+* it is used to invoke another constructor with in the same class
+* it must be the first statement in the constructor 
+* it can be used to avoid code duplicate when multiple constructor are defineded in a class
+
+       
+public class   {
+	   
+	public static void main(String args[])
+	{
+		first obj=new first();
+		obj.first1(9534,"balaji"  );
+		obj.display();
+		
+	}
+
+}
+
+
+  super keyword
+-----------------
+
+                * to access the  data member of the parent class  whwn both parent and child class having same attribute name
+
+      class parent
+{
+	 static void display()
+	{
+		System.out.println("balai");
+	}
+}
+
+public class superkeyword extends parent{
+	void display()
+	{
+		System.out.println("ai");
+	}
+	void balaji() 
+
+
+	{
+		super.display();
+	}
+	public static void main(String args[])
+	{
+		superkeyword in=new superkeyword();
+		
+		
+		
+	}
+	
+
+}
+
+
+
+final keyword
+-------------
+             * the final keyword denote the constants;
+
+      * final variable doesnot reassign with  the other value
+      
+       * final method doesnot cannot be overriding 
+
+          * final class cannot be overriding
+
+  
+
+ wrapper class 
+---------------
+               * to convert the primitive datatype into object datatype and object datatype into primitive datatype
+
+
+
+int        = Integer
+char       =Character
+float      =Float
+double     =DOuble
+byte       =Byte
+
+
+Autoboxing
+
+
+The automatic conversion of primitive data type into its corresponding wrapper class is known as autoboxing
+             
+         
+
+Unboxing
+
+
+The automatic conversion of wrapper type into its corresponding primitive type is known as unboxing
+
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------                                     Exception handling
+
+   
+
+1) checked exeception
+
+2)  unchecked exception
+
+
+
+
+checked exception 
+-----------------
+                   * the compiler check the exception at the comple time during the compilation process 
+
+example: IO exception,filenotfoundexception,classnotfoundexceptiom
+
+uncheccked ececption
+--------------------
+
+compiler cannot check the exception,it is checked at runtime by use of jvm
+
+example : Nullpointer exception,arrayindexoutofbondexception,arithemeticexcption,classcasteca, 
+
+Exception
+----------
+           *Exception is the event,  which occurs during the execution of a program,  which makes your program travel to the abnormal route and makes your program stop immediately
+
+           * Exception is distrub the normal flow of the program 
+
+
+
+
+example :  if you are going to college by bike suddenly your bike got punctured then that situation is called exception.then irentrun went to college that time is execption is handed  
+
+ 
+
+
+
+excaption
+-----------
+*Most of the time exceptions are caused by our programmer, and these are recoverable.
+
+
+
+
+Error
+----
+        * complitation error
+
+*Most the of the time errors are not caused by programmer and these are due to lake of system resources. Errors are non-recoverable.
+
+
+
+Exception handling :
+                       * to handle the runtime error
+
+different between error and excption
+
+
+error       
+
+* most of the time error not caused by the progammer                     * most of the time exception caused by the programmer
+deu to lake of system resource 
+
+* error is non recoverable                                                   * exception is a recoverable
+
+* error is a unchecked exception                                              * exception is checked and unchecked exception
+   
+
+
+
+
+
+
+Error
+----
+        * complitation error
+
+
+
+
+Exception handling :
+                       * to handle the runtime error
+   
+
+
+  5 Keyword
+------------
+
+1) try
+2) catch
+3) finally
+4) throw
+5) throws
+
+
+
+try  :
+
+     *   * try block exception possile area
+ 
+      *  if  you know some error occurs that program  , error occure that place we will use the try keyword then that error thorugth the catch block 
+
+
+  * try block should have catch block and finlly block or both;
+
+
+ 
+  
+  * one try block have multiple catch and final
+
+
+
+
+
+try
+{
+
+// error possibility area
+
+}
+
+
+
+catch  :
+     * catch block followed by try block
+
+         * catch   block of code to be executed if an error occures in the try block
+
+     * catch block catch the exception from the try block
+
+      
+
+
+
+catch( what is the exception in that program  object c)
+{
+
+sout();
+
+}
+
+  
+finally
+ 
+
+
+* finally block is always executed whether an exception is handled or not
+
+      
+
+      Java finally block is a block used to execute important code
+
+
+   *The important statements to be printed can be placed in the finally block.
+
+
+
+
+
+* Throw
+---------
+           throw the exception
+
+	we an throw	one exception at a time
+
+
+ 
+*throws
+------
+
+declare the exception
+we can throw multiple exception at a time
+
+  
+
+      throw                                                                                     thorws  
+
+throw is used within the method	                                                   throws is used with the method .signature.
+ after throw we can mention only one exception object                                                  after throws ,we can give any no of exception class     
+
+
+ thorw is manily used for user defined exception                                          throws is manily used  for predefined exceotion
+
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------
+used to create exception                                          used to declear the exception
+
+used inside a method                                           used in method signature
+
+used mainly for user define  exception                               used mainly for predefined  exception
+
+throw keyword followed by instance                            throws keyword followed by class
+
+
+
+
+
+object class :
+                * object class is a parent class of the all the class
+
+method 
+
+hashCode()
+equals(Object obj)
+toString()
+
+
+object cloning
+
+              * the object cloning is a to create exact copy of an object
+
+math class
+            *to easy slove the program methamitically
+
+  several method  :
+                    min(),max(),avg()...exc...example......math.max(a,b);
+
+
+final 
+* final is modifier applicable for classes method variable
+
+
+finally
+
+* finally is a block which is always associate with the try catch and to maintain clean up activity
+
+
+  
+
+fnalize 
+
+
+      * finalize is a method
+
+      * garpage collector
+
+*finalize is method which is always invoked by garbage collector just before destroying an object to preform clean up actives
+
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+                                                         colletion
+                                                         -----------
+
+
+collection :
+
+collection is a container that store the group of the object
+
+     group of object 
+                                                        
+what is the collection?
+
+* collection freamwork is a combination of thr classes and interface which is used to store and manipulate the data in the form of object 
+
+* it is provide various classed like arraylist linkedlist,set......exc 
+
+
+        array                                                                                                                   collection
+------------------------------------------------------------------------------------------------------------------------------------------
+ * array is always fixed size
+user canot increase or decreas the lendth of the array  according to their requirement at runtime                                 * collection is dynamic 
+  
+
+* array store only same datatype                                                                                                    * collection stored                                 d                                                                                                                                      
+                                                                                                                                        differen  t data type    
+
+*Arrays can hold both object and primitive type data.                                                                              * coolection can hold only object datatype 
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+
+list ----- arraylist ,linkedlist
+
+set------hashset,linked hashset,treeset
+
+
+map------hashmap,linkedhasp,tree map
+
+
+
+
+set
+
+ * Duplicate element are not allowed
+* Dont maintain the order
+* set is a child interface of the collection interface
+
+
+list 
+     
+     * duplicate element are allow 
+     *to maintain insertion order
+     *lis of interface
+   * list is index based
+     * list is child interface of collection interface
+----------------------------------------------------------------------------
+
+
+
+    Array                                                   Arraylist
+ 
+ * fixed size  array                                              * resizalble array or dynamic array
+
+ * is a basic data structure                                      * is a class
+
+ * it is store primitive data type and object                      *it is Strore object only
+
+ * collection of similar datatype                                   * collection of object
+
+
+
+
+Arraylist :
+---------
+
+             * arraylist uses a dynamic array to store the element
+
+            * arraylist contain duplicate element or non duplicate element
+             
+             *it is stroe object only
+            
+
+          ad----   * data retrieval is faster
+
+       disad-----    * add and remove of an element at first and middle possition needs to more shift operation
+
+when use  :
+---------  
+
+           * only data is taken
+
+
+
+ method :
+          add();
+          add(index," ");
+          remove();
+          removeall();
+          size();
+          addAll();
+          clear();
+
+
+Syntax   :  Arraylist (object name) =new Arrayist();
+
+
+
+
+ Linkedlist
+-----------
+
+
+    * linkedlist class uses a doubly linked list to store the element 
+ 
+    * it has data part and link part
+
+     * linked list contain duplicate or non duplicate 
+
+     * linked list maintain insertion order
+
+   *  *it is stroe object only
+ 
+
+            
+   disad---   * data retrieval is slow 
+            
+   ad----           * data insertion and delete is better        
+            
+
+
+            
+  when 
+--------
+            * data change pannum pothu use pannum linkedlist
+
+
+specific method
+----------------
+                   * addfirst(),last();---->
+                   * getfirst(),last();
+                   *pollfirst(),last();----->firstelemet remove
+                   * removefirst(),last;
+                   *offerfirst(),last();----->add pannum element
+
+
+
+
+arraylist                                                                                                linkedlist
+
+* data retrival is fast                                                                                * data retrival is slow
+
+add and remove of an element at first and middle possition needs to more shift operation               * add and remove element is better 
+
+* ArrayList implements only List                                                                        * linkedlist implements  List  and queue
+ 
+
+*ArrayList is faster in storing and accessing data.                                                       *LinkedList is faster in manipulation of data.
+
+
+list 
+     
+     * duplicate element are allow 
+     *to maintain insertion order
+     *lis of interface
+   * list is index based
+     * list is child interface of collection interface
+
+
+
+
+Set :
+       *  duplicate element are not allow 
+       * doesnot maintain the order 
+       * set object
+
+  * set is child interface of collection interface
+
+                             Example : two team are playing frst team circket,second volley ball
+
+
+map
+----
+   * not a subinterface of the collection interface
+
+  * no duplicate key are allowed
+
+  * duplicate value are permitted 
+
+   * map is a collection of key pair value
+
+
+
+
+set
+----
+
+  * hashset();---->no order---->no duplicate element allow---->it is non synchorized---hashset allow null value
+
+ * linkeshashset();--->to maintain insertion order---->allow duplicate---->
+
+ * tree set();--->to assending  order-->same datatype--> doesnot allow the null element
+
+
+
+
+cursor  :
+          *useful for retrieving object one by one from collection
+
+
+* enumeration 
+---->interface----
+* iterator
+*listiterator
+*splitertor
+
+
+
+Iterator                                                        listitertor 
+---------
+         method                                                           method                      
+                 * next()---> atha value what?                              *
+                 *hasnext()----->next value irrukka
+                 * remove()---
+
+
+map
+----
+   * not a subinterface of the collection interface
+
+  * no duplicate key are allowed
+
+  * duplicate value are permitted 
+
+   * map is a collection of key pair value
+
+   
+
+entrys means --> key value pair
+
+
+
+   *hashmap();---> 
+
+                  * hashmap maintain no  order
+
+                  * hashmap is implemented by hastable
+
+                  * hashmap can be store by key or value
+
+                  * hashmap contain unquie element only
+
+                  
+
+
+   *linkedhashmap();---->
+                  
+
+                 * linkedhasmap maintain insertion order
+
+
+                 * 
+
+
+    *treemap();----->
+
+                    * tree map maintain ascending order
+
+                    *tree map implemented by a tree structure
+        
+                    * tree map store by key
+
+
+
+    *hashtable();----->
+   
+                 * hashtable is synchronized
+
+                 * it canot contain any null key or any null  value
+
+                 * it is a thread safe
+
+
+
+hasmap                                      linkedhashmap
+ 
+
+comparable
+
+          * comparable provide single sorting sequence
+
+         *  Comparable affects the original class, i.e., the actual class is modified.
+
+ 
+
+            * Comparable provides compareTo() method to sort elements.
+
+            *  Comparable is present in java.lang package.
+
+
+comparator
+
+         *The Comparator provides multiple sorting sequences.
+
+        *Comparator doesn't affect the original class, i.e., the actual class is not modified.
+
+
+       * Comparator provides compare() method to sort elements
+
+       * A Comparator is present in the java.util package. 
+
+
+ 
+
+
+     Question
+    ------------
+1) pojo class name id city
+1)-- 1st method--->4 employee detail--list
+2)--2st method map---> key id value object
+3) --3st key oru list,value oru list the oru map convert panni athula irrukka city get panni print pannanum
+
+
+
+
+1)
+
+1) 1st method----->map--->keyvalue(employee current office detail)
+
+2) 2st method ---->map---->keyvalue(employee old office detail)
+
+3) 3method--->same key athan value print----)
+
+
+2) pooja class  id name,
+1) 1st--->getmarkmap--> english,maths,science
+2)2st-->getsemmap--->key sem1... value mark
+3)3st--->student1,2,3..retuen student 1 detail....
+
+
+1)  1st method -->set of employee name
+    2st method---->above 18 age oru list store --->below 18 age oru list store 
+
+
+
+11) 
+
+pooja classs---> int id,string name,map mark
+
+method 1----->createmarkmap(int sub1,int sub2,int sub3)---map--key--1,2,3--->sub1,sub2...
+
+main method map<integer,obj>
+create object
+
+
+
+2) to convert the list to map
+
+3) to convert the list to map
+
+4)to convert the map to list
+
+5) how to iterate the map
+
+6) how o iterate the list
+
+
+7) how to merge the arrraylist
+
+8) 
+
+
+
+9) to print key 
+
+10) to print value
+
+
+
+12) how to sort the arraylist--->collection.sort(obj);
+
+
+13) How to Sort ArrayList in Java
+
+14) Difference between Array and ArrayList
+
+------------------------------------------------------------------------------------------------------------
+
+     array                                        arraylist
+
+
+
+    *array is a static memory                  *java arraylist class is dynamic memory
+      
+   *  Array can be multi-dimensional.            *arraylist always sigle dimensional
+
+
+   * array is a collection of same data type      * arraylist is a collection different data type
+
+  * it is stored primitive type and object type     *it is stroe only object
+                                               
+
+                                                  * the arraylist to maintain the insertion 
+
+                                                  * arraylist to allow the duplicate value
+
+                                                
+
+  -----------------------------------------------------------------------------------------------------------------                                           
+
+
+15) When to use ArrayList and LinkedList in Java
+
+
+
+
+       arraylist                                        linkedlist 
+
+
+  *      data taken                             * * only data change pannitai irrukum pothu
+
+
+
+
+
+
+
+
+16) Difference between ArrayList and LinkedList
+
+  arraylist                                                           linkedlist
+
+*  *java arraylist class is dynamic memory                               *java arraylist class is dynamic memory
+
+*  data retrieval is faster                                                ** data retrieval is slow
+
+
+                                           
+*  data add first and middle to need more shift operator                  * data insert and delete better
+                                                                      
+
+
+
+
+
+17) Difference between ArrayList and Vector
+
+
+
+arraylist                                                        vector
+
+
+
+
+
+
+
+
+
+
+
+18) How to Compare Two ArrayList in Java
+
+
+list1.equals(list2);
+
+19) How to reverse ArrayList in Java
+
+collection.reverse(obj);
+
+20) When to use ArrayList and LinkedList in Java
+
+21) How to make ArrayList Read Only
+
+22) Difference between length of array and size() of ArrayList in Java
+
+23) How to Synchronize ArrayList in Java
+
+24) How to convert ArrayList to Array and Array to ArrayList in java
+
+25) Array vs ArrayList in Java
+
+26) How to Sort Java ArrayList in Descending Order
+
+27) How to remove duplicates from ArrayList in Java
+
+28) to set the specific element in arraylist
+
+29) first method la 3 atribute 
+
+    second method la 2 attribute 
+
+   third method to merge the 5 attribute
+
+
+30)  to print map key -->first name,value--->lastname
+
+31) how to separete duplicate oru list and non duplicate oru list in java
+
+
+
+
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Therad
+------
+
+
+
+Interview Question
+-------------------
+
+1) introduction
+
+2)the ways to define a thread
+
+3)Getting and setting name of the thread
+
+4)thread priority
+
+i) thread schduler
+
+5)the methods to prevent thread execution
+i) yield()
+ii)join()
+iii)sleep(); 
+
+6)synchronization
+
+7) inter thread communication
+
+8)deadlock
+
+9)deamon threads
+
+10) multithraeding enhancements
+
+
+
+what is the thread
+----------------------
+
+* thread is a indepentent path of the execution within the same program and  
+
+*  thread is a single flow  of the execution is know as the thread
+
+  
+
+
+
+
+multithread :-
+
+  * Multithreading in Java is a process of executing multiple threads at the time . 
+
+    
+
+    * thread is a subprocess
+
+   * thread is a sequence flow of the  controller
+
+   * thread is a lightweight process----oru process do 
+
+
+*concurrency
+------------
+              * the system can do more work at a time
+
+
+  
+
+
+Process
+------
+
+    * a process has a self contained exection environment ,each process has its own memory space
+
+
+
+
+thread is create two way 
+-----------------------
+
+
+                       * by extending thread class
+     
+                        * by implementing runnable interfece
+
+
+better 
+------
+        * by implementing runnable interface is a better way to create thread in java because java doesnot support multiple inheritance in case of classes  
+
+
+    1) runnable interface contain run method that was abstract method
+
+
+
+thread life cycle
+------------------
+
+ *developer is moving a new thread to runnable
+
+* JVM is moving that thread from runnable to running
+
+* thread scheduler:-
+
+decide which thread to be moved from runnable to running
+
+
+New
+|g 
+runnable
+|
+running
+|
+waiting
+|
+terminated  or dead
+
+
+method ---
+-------
+
+    * run();
+
+    * start();
+
+   * slepp();
+
+   * join();
+
+  *stop();
+
+
+run()
+-----
+      * the run method established an entry point to new thread
+
+
+sleep()
+------
+       * sleep method can be used to pause the execution of the current thread for a specified time in millisecond
+
+join()
+------
+        * one thread to wait untill another thread complete it exeusion  (or) one thread to wait untill another thread execution is completed
+
+
+stop()
+-----
+       * stop method used to terminate the thread execution
+
+
+
+total priority in multithread-----1...........5.........10
+                                 min          nor         maxS
+  
+
+
+runnable 
+---------------
+                 *A runnable interface is an interface that contains a single method,that method is run()
+
+
+
+running
+--------
+
+           * 
+
+
+thread priority
+----------------
+                  * whenever multiple threads are ready for execution ,the java system choose the highest priority thread and execute 
+
+
+thread scheduler
+------------------
+
+*In Java, the thread scheduler is responsible for assigning CPU time to threads. The scheduler is part of the JVM and is responsible for deciding which thread should execute next, based on various factors such as priority
+
+
+
+
+   multitasking                                                    multithread
+
+* CPU executes multiple tasks at the same time                 CPU executes multithread  at the same time
+
+
+* process dont  share same resource ,each process             mutiple threads of the process 
+is allocated with separeted resoures 
+
+
+* slower                                                           faster
+
+
+* it support for  multiprocessing                                 it dont support foe multiprocessing
+
+
+
+  JAVA PACKAGE
+---------------
+
+*A java package is a group of similar types of classes, interfaces and sub-packages.
+
+
+
+
+     2) What are the differences between C++ and Java?
+
+
+
+         c++                                                                                                    java
+
+
+ C++ is platform-dependent.                                                        Java is platform-independent.
+
+
+ 
+C++ is mainly used for system programming.                                         Java is mainly used for application programming
+
+
+C++ supports both call by value and call by reference.                             Java supports call by value only. There is no call by reference in java.
+
+
+c++ support pointor concepct                                                            java doecnt support pointor  concept 
+
+3) List the features of Java Programming language.
+
+  * simple
+   
+   * object oriented programing language
+
+   * robuster
+ 
+
+  * plotform indepent
+
+  * secure
+
+
+6) How many types of memory areas are allocated by JVM?
+
+* class area-----java class filed stored
+
+* heap area-----to store the object
+
+ stacke area----to store the variable
+
+ *Program Counter Register: 
+
+*Native Method Stack
+
+
+
+18) What is the purpose of static methods and variables?
+
+
+
+
+
+
+
+
+
+
+
+
+
+19) What are the advantages of Packages in Java?
+
+
+
+
+
+
+
+
+
+
+28) How many types of constructors are used in Java?
+
+
+
+* default constructor
+
+* paramatriced constructor
+
+
+29) What is the purpose of a default constructor?
+
+
+The purpose of the default constructor is to assign the default value to the objects.
+
+    
+
+32) Can you make a constructor final?
+
+
+
+No, the constructor can't be final.
+
+
+
+
+7) What is JIT compiler?
+
+JIT--just-in-time: to improve the program performance, to reduce the amount of time needed for complication,
+
+
+11) What is classloader?
+
+
+Classloader is a subsystem of JVM which is used to load class files. Whenever we run the java program, it is loaded first by the classloader
+
+* the java classloader is a part of the java runtime environment that dynamically loads java classes into the java virtual mechine
+
+
+23) What is object-oriented paradigm?
+
+
+
+
+42) Why is the main method static?
+
+Because the object is not required to call the static method. If we make the main method non-static, JVM will have to create its object first and then call main() method which will lead to the extra memory allocation
+
+
+
+44)Can we execute a program without main() method?
+
+
+Ans) No, It was possible before JDK 1.7 using the static block. Since JDK 1.7, it is not possible.
+
+
+
+
+1) tocharArray
+--------------
+             * to convert my string object into character array  
+
+
+
+
+
+2) charAt(index)
+ 
+       * to find out a particular at given index position
+
+
+public class charAtmethod {
+	
+	public static void main(String[] args) {
+		
+		  String s1="balajib";
+		  
+		  for(int i=0;i<s1.length();i++)
+		  {
+			  for(int j=i+1;j<s1.length();j++)
+			  {
+				  
+			  if(s1.charAt(i)==s1.charAt(j))
+			  {
+				 System.out.println(s1.charAt(i));
+			  }
+		  }
+	}
+	}
+
+3) indexof(char/string)
+
+       * to find out first occurrence of given character
+
+
+
+public class indexof {
+	public static void main(String[] args) {
+		
+		String s1="balaji maniraj karthik";
+		System.out.println(s1.indexOf("maniraj"));
+	}
+
+}
+
+4) lastindex(char)
+
+     * to find out last occurence of given character 
+
+public class lastindexof {
+	
+	public static void main(String[] args) {
+		
+		String s1="balaji balaji ablajia";
+		
+		System.out.println(s1.lastIndexOf('a'));
+		
+		System.out.println(s1.indexOf('a'));
+		
+		
+		
+	
+
+5) contains(string)
+
+     * to confirm if the given char.sequence(string) is present or not
+
+6)  start with(string)
+
+* to confirm if the string starts eith given arugment
+
+7) endswith()
+
+* to confirm if the string ends with given arugment 
+
+public class endswith {
+	public static void main(String[] args) {
+		
+		String s1="balaji By balaji";
+		
+		System.out.println(s1.endsWith("B"));
+	
+	
+	
+	}
+
+} 
+
+
+8)  tolowercase();
+
+
+9) touppercase();
+
+
+
+
+
+
+
+
+Basic program
+-------------
+
+1) armstorng number
+
+
+public class armstrongnumber {
+	
+	public static void main(String[] args) {
+		int n=152,n1,r,sum=0;
+		n1=n;
+		
+		while(n!=0)
+		{
+			r=n%10;
+			sum=sum+(r*r*r);
+			n=n/10;
+		}
+		
+		
+		if(sum==n1)
+		{
+			System.out.println("number is armstrong");
+		}
+		else
+		{
+			System.out.println("not");
+		}
+	}
+
+}
+
+2) factorial
+
+
+public class Factorial {
+	
+	public static void main(String[] args) {
+		
+		int n=5,fact=1;
+		
+		for(int i=1;i<=n;i++)
+		{
+			fact=fact*i;
+		}
+		System.out.println(fact);
+	}
+
+}
+
+
+3) fibacci serices
+
+
+public class fibacciSerices {
+	
+	public static void main(String[] args) {
+		
+		int a=0,b=1,c;
+		System.out.println(a);
+		System.out.println(b);
+		for(int i=0;i<10;i++)
+		{
+			c=a+b;
+			System.out.println(c);
+		   a=b;
+		   b=c;
+			
+		}
+			
+	}
+
+}
+
+
+4) polingrome
+
+ublic class polindrome {
+	public static void main(String[] args) {
+		
+		int n=122,n1,rev=0,r;
+		n1=n;
+		
+		while(n!=0)
+		{
+			r=n%10;
+			rev=rev*10+r;
+			n=n/10;
+		}
+		if(rev==n1)
+		{
+			System.out.println("number is polindrome");
+		}
+		else
+		{
+			System.out.println("not");
+		}
+	}
+
+}
+
+
+5)prime number
+
+public class primenumber {
+	public static void main(String[] args) {
+		
+		int n=10,c=0;
+		
+		for(int i=1;i<=n;i++)
+		{
+			if(n%i==0)
+			c++;
+		}
+		if(c==2)
+		{
+			System.out.println("number is prime number");
+		}
+		else
+		{
+			System.out.println("not number");
+		}
+	}
+
+}
+
+
+6) reverse number
+public class primenumber {
+	public static void main(String[] args) {
+		
+		int n=123,rem,rev=0;
+
+while(n!=0)
+{
+rem=n%10;
+rev=rev*10+rem;
+n=n/10;
+
+	}
+sysout(rev);
+
+
+}
+
+7) polindrome string
+
+
+public class Stringpolindrome {
+	public static void main(String[] args) {
+		
+		 String s1="madam",rev="";
+		 
+		 int len=s1.length();
+		 
+		 for(int i=len-1;i>=0;i--)
+		 {
+			 rev=rev+s1.charAt(i);
+			 
+		 }
+		 System.out.println(rev);
+		 
+		 if(s1.equals(rev))
+		 {
+			 System.out.println("polindrome");
+		 }
+		 else
+		 {
+			 System.out.println("not");
+		 }
+		
+	}
+
+}
+
+------------------------------------------------------------------------------------------
+
+freamwork
+----------
+             * more package
+             * more clsses
+             * more interface
+ 
+core java  = java -1-standard Edition
+
+Spring boot  = java enterprise edition 
+
+enterprise ---organization 
+
+
+Spring Boot
+------------
+              * spring boot makes it easy to create stand-alone,production-grade spring based application that you can "just run",
+
+* we take an opinionated view of the spring platform
+
+Spring
+--------
+             * the spring freamwork provides a comprehensive programming and confiduration model for modern java based enterprise application on any kind of deployment platform
+
+
+ JAR files(java ARchive files)--zip files containing java class files 
+
+
+conbiguration -- we need far file to point the your poject tools,jvm ponit
+
+
+
+bill of material --> jar file align panrathukku
+
+
+
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------JAVA---
+
+what is the servlet:
+
+* servlet is a server side component that handled the HTTP request and genraete the response
+
+* servlet is an API to provide the interfaces ,classes including document
+
+
+
+servlet
+--------
+         * servlet to run the server side application is knows
+
+static reqquest:-
+                 already irrukura content
+
+dynamic request
+
+    * nammkku needed information
+
+
+jsp:-(java server page)
+     * 
+
+1) what is servlet?
+
+
+
+
+
+
+2) why usethe servlet?
+
+
+
+
+
+
+
+3) what is the jsp?
+
+
+
+
+
+
+
+3i) why use the jsp?
+
+
+
+
+
+
+
+
+
+
+
+
+4) what is an application?
+
+
+
+
+
+
+
+5) what is an web application?
+
+
+
+
+
+
+
+6) what is client sever architecture?
+
+
+
+                       
+
+
+
+ 7 static variable
+ 
+* static variable doesnt not change object to object   ,single copy will be craeted at class level and shared by every object of the class
+
+static method
+-----------------
+ * static method doesnt change object to object single copy will be created at class level and shared by everyobject of the class
+
+
+static block
+------------
+* Static block only exeute the static variable
+
+
+
+Different between equals and ==
+
+equals                                                        ==
+
+equlas is a method                                               == is a operator
+
+equals method to compare content of the two object           == method to compare the address of the two object
+
+This is a method defined in the Object class.                     	It is a binary operator in Java.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+       
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
