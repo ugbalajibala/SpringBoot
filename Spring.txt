@@ -1,0 +1,202 @@
+                                       Spring
+                                      ---------
+
+framworks
+------
+
+*framwork is a semi developed software which provide some common logics which are required for application development
+
+semi means--> not completed freamwork
+
+
+--> freamework are divided into 2 type
+----------------------------------------
+
+i)ORM freamwork
+ii)web application freamwork
+
+
+ORM (object relational mapping)
+fream are used to communicate with the database in application
+
+
+web freamwork are used to develop web applications
+
+
+
+Spring come to which one-->application devlopment framwork 
+
+--> spring is an application development freamwork
+
+--> by using spring framwork we can develop end to end application
+
+-->spring is not a single framework .it is collection of framworks
+
+--> spring framwork is developed in mogular fashion
+
+*spring core
+*spring context
+*spring AOP
+*spring DAO
+*spring web MVC
+*Spring ORM 
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+1)what is the framwork?
+ 
+ framework is a software development that provide a stuctured and reusable foundation ,tools for building application,it is provide the set of tools and libraries for building application
+
+for example : if you built one project that project no need write code from scarch becauese  framework provide lot of  inbuilt function
+
+1i) main pupose of the framwork ?
+
+* to provide the standardized way of developing software
+
+
+2)why framework?
+
+*  no need to  write code from caratch
+* saves time
+*inbuilt security features
+
+
+3)what is the spring framework?
+
+//* spring framework is open source application framework for java 
+
+*spring framwork is an application development framework
+
+* it is  developed end to end application 
+
+*spring is not a single framework ,it is collection of framworks
+
+
+) why to use spring framework?
+
+* spring framework is a Lightweight 
+
+* MVC Pattern
+
+* Easy Communication with Databases   
+
+* Dependency Injection                                   
+
+5) what is the dependency injection?
+
+injected the dependency 
+
+The main idea in Dependency Injection is that you don’t have to create your objects
+but you just have to describe how they should be created.
+
+
+if i have one class the class required dependency dont create denpency inside the class it is  create outside class  and then inject in  that class 
+
+
+
+advandages:
+
+*future enhancement will be easy
+
+*maintenance and clean code
+
+*good for unit testing
+
+
+6) Different Ways of Dependency Injection
+
+Constructor-based Dependency Injection
+Setter-based Dependency Injection
+ Property-based Dependency Injection
+
+
+7)what is the IOC --inversion of control
+
+IOC (Inversion of Control) and DI (Dependency Injection) is a design pattern to provide loose coupling. It removes the dependency from the program
+
+6) What are the types of IOC container in spring?
+
+1)  BeanFactory
+2)  ApplicationContext
+
+
+what is the mvc ?
+
+* mvc is a design pattern that  pattern separetion application 
+
+model  : the model represents the data and business logic of the application
+
+view   : the user interface of the application
+
+controller :  connet the logic between the view and model
+
+
+8)Spring MVC :-
+
+*Spring MVC is a Java framework that is used to develop web applications. It is built on a Model-View-Controller (MVC) pattern and possesses all the basic features of a spring framework, such as Dependency Injection, Inversion of Control.
+
+9) main benifit of spring mvc
+
+*resuing of the compomnent
+
+*modifying in one layer will not affect the other layers
+
+
+
+MVC  --model view controller--MVC architecture
+
+
+* broswer send request to the controller that controller send the request to model for to get the data from database after that the data send to the contoller the controller send request to view and view send to the page the controller after controller send the response to the broswer 
+
+
+what is handler mapping in spring mvc :
+
+*application may have serveral contollers to decide which controller to send a request to dispatcherservlet 
+
+
+
+6. Explain the difference between constructor and setter
+injection?
+
+In constructor injection, partial injection is not allowed whereas it is allowed in
+setter injection.
+The constructor injection doesn’t override the setter property whereas the same
+is not true for setter injection.
+Constructor injection creates a new instance if any modification is done.The
+creation of a new instance is not possible in setter injection.
+
+
+3) What are the modules of spring framework?
+
+* Test
+* Spring Core Container
+* AOP, Aspects and Instrumentation
+* Data Access/Integration
+* Web
+
+4)Spring Bean Configuration
+
+* Annotation Based Configuration
+
+*XML Based Configuration
+
+*Java Based Configuration 
+
+
+5)   @Service or @Component annotations.
+
+ @Scope ,@Configuration, @ComponentScan and @Bean.
+
+6) what is the spring bean?
+
+7) what is the spring ioc container?
+
+
+----------------------------------------------------------
+
+
+
+
+
+
+
+

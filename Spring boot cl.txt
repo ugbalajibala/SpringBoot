@@ -1,0 +1,525 @@
+
+                 Spring and Spring boot
+              ------------------------------
+
+what is the freamwork  :
+----------------------
+
+framework provide the set tools and libarrs for buliding application
+
+
+2)why framework?
+
+*  no need to  write code from caratch
+* saves time
+*inbuilt security features
+
+
+
+what is the design pattern :
+-----------------------------
+
+design pattern nothing but a proven solution and idea not a particular implementation
+
+* design pattern is a idea  not a particular  implementation
+
+
+solution means address the problem
+-------
+proven means --expericed solution of the problem
+
+
+
+what is the spring framework :
+------------------------------
+
+
+*spring framwork is an application development framework
+
+* it is  developed end to end application 
+
+
+
+4) why to use spring framework?
+
+* spring framework is a Lightweight 
+
+* MVC Pattern
+
+* Easy Communication with Databases   
+
+* Dependency Injection  
+
+
+what is the mvc :
+--------------------
+
+mvc is a design pattern
+
+what are design pattern :
+----------------------
+
+behaviour pattern
+
+
+mvc means you have model control view
+
+controller:
+-------------
+
+controller is component and  control the flow of the application
+
+controller works controller tell you sholud go here or here
+
+model :
+----------
+
+model nothing but representation of the  application data
+
+like amazon product,payment
+
+view :
+-------
+
+view nothing  but respresenting the model and display the data to the user
+
+
+core component
+----------------
+
+mvc 
+---
+
+spring data
+--------------
+
+core component have a dependency injection
+
+what is the dependency injection
+-------------------------------
+
+* dependency injection is a deign pattern
+
+*and inject the dependency in the class
+
+
+* one class object to insert the other class  is know as dependentcy injection
+
+
+when the dependency is injected by the container then it called as dependency injection
+
+
+*dependency injection is a design and which is used to inject the dependency class into dependent class
+
+
+
+
+
+
+advanage of the depentency injection
+--------------------------------------
+
+* avoid tightly coupling
+
+* @component @ auto wired @qualifier 
+
+
+* unit testing will be easier one 
+
+
+3) What are the modules of spring framework?
+
+* Test
+* Spring Core Container
+* AOP, Aspects and Instrumentation
+* Data Access/Integration
+* Web
+
+
+4)Spring Bean Configuration
+-----------------------------------
+
+* Annotation Based Configuration
+
+*XML Based Configuration
+
+*Java Based Configuration 
+
+
+
+what is the container
+--------------------
+*contaioner is a class that provides run time support for other classes
+
+*container provides an environment for running application 
+
+*container is a class that provide the environment for aunning application
+
+IOC Container(inversion of control)
+-------------
+*the control is inverted from application to the container for injecting the dependencies
+
+*spring container uses dependency injection for managing the application component by creating object wiring 
+
+*ioc is inversion of control it is a framewok which is used for implementing automatic dependency injection.
+
+
+tightly couple:
+---------------
+
+* one class object do depentent the other class object is know tightly couple--dependency more
+
+* dependency more
+
+when two classes  modules or components have highly  dependencies on each other is called tightly  coupling
+
+loosely couple:
+----------------
+
+* dont depentent any object is kows as loosely couple---dependency less
+
+* dependency less
+
+*when two classes  modules or components have low dependencies on each other is called loosely coupling
+
+*loose coupling in java means that the classes are indeoendent of each other
+
+
+component
+-----------
+
+
+
+configuration
+----------------
+
+* collection of jar file and war file
+
+
+JAR file --> java ARchive file-->zipfiles containing java .class files--> jar file group of class file
+
+war file-->wab ARchive---->war file we can usedly only web application like servlete,appche tomcat
+
+
+
+Core Container
+----------------
+*beans
+*core
+*context
+*expression language
+
+
+
+---------------------------------
+
+Spring MVC
+----------
+
+       resquest---
+client-->web.xml-->dispatch Servlet-->handler mapping-->dispatch srevlet-->controller--->Service-->DAO()-->database-->DAO-->Service-->controller(model and view)-->Dispatch servlet-->view resolver-->dispatch servlet-->view-->dispatch servlet-->and then response to the user-->client
+
+
+Handler mapping--> deside the which controller go for 
+
+view resolver--> decide the which view go for 
+
+
+ Different between Spring and Spring boot
+-----------------------------------------
+
+
+spring                                                                                        Spring boot
+
+----------------------------------------------------------------------------------------------------------------
+
+
+*Spring framework  required more dependency  to create web application                                                Spring boot is a autoconfiguration
+                                                                                    Spring Boot that automatically configures various components and beans based on the classpath, dependencies, and properties available in the application.
+
+*it is create to loosely cople application                                           it create is stand alone application
+
+loosely couple means dependent other things                                               
+                                                                           standalone application refers to a self-contained application that can be executed independently without the need for a separate application server
+*suppose if you create the spring application
+the developer write lot of code                                          it reduce the line of code
+
+
+* spring framework xml configuration required                               no need
+
+
+
+
+
+
+
+different between spring and spring boot
+-----------------------------------------------
+
+spring framework                                               spring boot
+---------------------------------------------------------------------------------------------------------
+
+spring framework used  for building application                  spring boot used to develop rest api
+
+spring framework main feature is dependency injection              spring boot main feature is autoconfiguration
+
+it develop loosely couple application                             it develop stand alone application
+
+to run the spring application, we need to set the server munaly    spring boot provide the embeded server such as tomcatRAD
+
+
+in spring developer write lot of code                              it reduce some code
+
+
+
+
+
+
+
+what is the Spring boot?
+-----------
+
+*spring boot is a framework for  RAD(rabit application development) build(build the rabit application development) and spring boot provide autoconfiguration and  embeded application server
+like tomcat
+
+
+how to support  the Rabit application development in spring boot :
+----------------------------------------------------------------------
+
+*standalone application  which you can just runit bascally remove removes lof of configuration and dependency
+
+Is  this possible  to change the port of enbeded tomcat server in spring boot?
+---------------------------------------------------------------------------------
+
+yes possible to use the server.port properties in application properties 
+
+
+why springboot is used :
+------------------------ 
+
+* rabit application development 
+
+* spring framework is a lightweight
+
+*provide the autoconfiguration and enbeded server
+
+*less dependency only needed
+
+*to support the micro serveses
+
+
+feature of the spring boot
+----------------------------
+
+* spring boot is lightwight
+
+*rabit application develpoment
+
+*only less dependency needed
+
+*to provide embeded server
+
+
+
+What are the advantages of using Spring Boot?
+---------------------------------------------
+
+*Easy to understand and develop spring applications.
+
+*Increases productivity and reduces development time.
+
+*Minimum configuration.
+
+* We don’t need to write any XML configuration
+
+
+4. What is the starter dependency of the Spring boot module?
+------------------------------------------------------------------------
+Spring boot provides numbers of starter dependency, here are the most commonly used -
+
+Data JPA starter.
+Test Starter.
+Security starter.
+Web starter.
+
+
+5. How does Spring Boot works?
+----------------------------
+Spring Boot automatically configures your application based on the dependencies you have added to the project by using annotation. The entry point of the spring boot application is the class that contains @SpringBootApplication annotation and the main method.
+
+
+@SpringBootApplication
+----------------------------
+@SpringBootApplication – used to denote the main class of a Boot Application
+
+
+15. Can we create a non-web application in Spring Boot?
+---------------------------------------------------------
+Yes, we can create a non-web application by removing the web dependencies from the classpath along with changing the way Spring Boot creates the application context.
+
+
+
+16 Can we override or replace the Embedded tomcat server in Spring Boot?
+----------------------------------------------------------------------------
+Yes, we can replace the Embedded Tomcat server with any server by using the Starter dependency in the pom.xml file. Like you can use spring-boot-starter-jetty as a dependency for using a jetty server in your project.
+
+
+
+what is the dependency injection
+--------------------------------
+*dependency injection is a design  pattern and which is used to inject the dependency class into dependent class
+
+for example
+--------------
+*when we write any program somtimes  it need create object of some class  so dependency inject helped us to creation  process 
+
+
+what are the type of the DI?
+----------------------------
+
+*constructor injection
+
+*setter injection
+
+*filed injection
+
+what is the IOC?
+--------------------
+
+IOC means inversion of contorller
+
+*spring container uses dependency injection for managing the application component  by creating object wiring 
+
+
+what is the spring bean 
+-----------------------
+
+*spring bean refer to object managed by spring framework inversion of control container
+
+
+different between constructor and setter injection
+-----------------------------------------------------
+
+constructor injection                                                            setter injection
+--------------------------------------------------------------------------------------------------------
+
+
+6. Explain the difference between constructor and setter
+injection?
+-----------------------------------------------------------------
+-----------------------------------------------------------------------
+
+In constructor injection, partial injection is not allowed whereas it is allowed in
+setter injection.
+The constructor injection doesn’t override the setter property whereas the same
+is not true for setter injection.
+Constructor injection creates a new instance if any modification is done.The
+creation of a new instance is not possible in setter injection.
+
+
+what are the bean scope spring provided
+-----------------------------------------
+
+*singleton
+
+*prototype
+
+*request
+
+*session
+
+*global session
+
+
+what is the bean wiring
+--------------------------
+
+*when the beans are combined together  inside the spring container that is called wired or bean wiried 	
+
+
+how many type of the ioc container are there in spring ?
+------------------------------------------------------------
+
+i) bean factory
+
+ii)application context
+
+bean factory
+------------
+*this is factory class,that contain collection of bean
+
+application context
+-------------------
+
+*the application context interface is built on top of the beanfactory interface 
+
+
+what are lifecycle  method  in spring 
+---------------------------------------
+
+* init and destory methods are called as life cycle method in spring 
+
+
+
+different between Spring boot and spring mvc
+------------------------------------------------
+
+
+spring boot                                                      spring mvc
+--------------------------------------------------------------------------------------
+
+* spring boot is a framework                                      Spring mvc is a design pattern
+
+*autoconfiguration is done                                         required to build configuration manully
+
+* it reduced development time and increase 
+productivity                                                      it required more time 
+
+
+
+spring boot architecture 
+-----------------------
+
+client---> controller---service---(repository)----model--> database--
+
+
+what are the key component in spring boot
+--------------------------------------------
+
+*Spring boot starter
+
+*spring boot autoconfiguration
+
+*embeded web server
+
+*spring actutor
+
+*spring data jpa
+
+*spring security
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
