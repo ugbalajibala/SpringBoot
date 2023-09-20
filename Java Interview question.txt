@@ -1,0 +1,879 @@
+                                             java interview question
+                                        ------------------------
+
+
+markar interface:
+
+* an interface is also knoe taged interface which has no method ex colonable interface, marked interafce empty interafce
+
+
+1) what is the java?
+                    * java is a high level language and platform indepent , java is a object oriented pogramming language but 100% not pure object oritened program language
+and then java is secure language
+
+2) different between c++ and java
+
+c++                                                          java
+
+it is a platform depend                                       it is a platform independent
+
+c++ is  support to the pointor concept                      java is not support the pointor concept 
+
+c++ is allow the call by value and call by reference       java is only allow the call by value
+   
+c++ mainly used for system progarmming                     java is mainly used for appalication programming
+
+
+
+4) What do you understand by Java virtual machine?
+
+
+Java Virtual Machine is a virtual machine that enables the computer to run the Java program and to execute the bye code into mechine code at any software or hardware
+
+
+
+7.
+Why is the main() method declared static?
+
+
+main() method is called by the JVM even before the instantiation of the class , as non static mamber or method cannot be called with the class name directly so main method shold be declear static 
+
+
+suppose if you remove the static keyword throw the nosunch method error
+
+
+What is PATH
+-------------
+
+
+PATH
+------ 
+  * the classpath  variable is an environment variable which is used by application class loader
+
+
+
+path is an environment variable which is used by Operating System to locate the exe files (.exe) or java binaries ( java or javac command).
+
+
+* path is a environment variable     
+
+What is CLASSPATH
+
+
+class loder 
+---------
+
+* the classloader is a part of the java runtime environment that dynamically load java classes into the java vitrual mechine
+
+* class loader is a part of the jvm which is used to load the class whenever we run the java program first load the class file by class loader
+
+
+is also an environment variable which is used by Application ClassLoader to locate and load the .class files . CLASSPATH setting is done to locate the .class files found in another directory.
+
+
+61) What is aggregation?
+Aggregation can be defined as the relationship between two separate classes  aggregation represent the week relationship  ex depend on the any things,linke bank employee
+
+62) what is the composition?
+
+composition can be defined as part of the  relationship between two classes  composition represent the strong relationship ex human body
+
+
+
+63) What is the difference between aggregation and composition?
+Aggregation represents the weak relationship whereas composition represents the strong relationshi
+
+
+
+16.
+What is the return type of the main() method?
+
+Main() method doesn't return  anything hence declared void.
+
+
+
+-------------------------------
+
+1) java is pure object oritended ?
+
+* java to use the permitive date type so java is a not pure object oritened programmimng language
+
+2)what is diiferent between abstraction and encapsulation?
+
+
+
+abstraction                                               encapsulation
+
+abstaction is a feature of opps                                     "
+
+it solves an issue at the design level                       solves an issude at implemention level
+
+it focuses on the external lookout                           it focuses on internal working
+
+it can implemented using abstraction and interface           it can  implemented using  access modigier
+
+
+3) what is the enumuration in java?
+
+enumration is a special data type which contain a set of predefined constanst 
+
+
+
+4) can we interface is final?
+
+you cannot make interface is finall because interface  have only abtract method that method must override the another class once class is finally declaer that class cannot be overide
+
+5)can we declear interfce method static in java?
+
+6)advandage of the encapsulation?
+
+data hiding
+code reusebility
+flexibility and maintainabilty
+
+
+7)what is the definition of the pacakage?
+
+pacakage is a group of the smiliar type of classes and interafe sub package
+
+
+8)how many type of the pacakages?
+
+there are two type
+* build in pacage 
+* user define pacage
+8i) advan: 
+
+java pacage provide access protection
+
+java pacage remove naming collision 
+
+
+
+9)what is the purpose of the final block?
+
+final block execute important informtion 
+
+
+10)what is the string bool ?
+
+string pool is a storage space in the java heap memory where string litrals are stored is know as string constant pools
+
+
+11) why are the object immutable in java 
+
+mutable object
+
+string buffer,string builder
+
+immutable object
+int long float double wrapper class string class 
+
+
+12) what is main advange of the tostring method?
+
+* easy debugging 
+* logging and auditing
+* code readabilty and maintainbility
+
+13) what is the ad and dis inner class? 
+
+
+14) whare use the inner class/
+
+15)how many method in java?
+
+*two type method in java
+there are predefined and used defined
+
+
+16)what is the java?
+java is the high level language
+
+17)why is the java platform indepent
+
+java byte code to execute any at any platform so java in a platform indepent
+
+
+18) what is feature of the java and application in java?
+
+
+feature:
+
+*
+
+19) what is the platform
+
+The Java™ platform is the environment for developing and managing Java applets and applications.
+
+20)interpeter 
+
+what :
+
+* interpreter is a computer program that converts the high level language into assembly level language .when program is run it convert code into machine code
+
+complier what:
+
+* that transalaes a programming language soure coode into machine code
+
+* in the first part the souce program complied and translated into the object program
+
+* in the second part object program translated into the target program through the assembler
+
+
+6) How many types of memory areas are allocated by JVM?
+ 
+* class area-----java class filed stored
+
+* heap area-----to store the object
+
+ stacke area----to store the variable
+
+ *Program Counter Register: 
+
+*Native Method Stack
+
+8) How many types of constructors are used in Java?
+
+
+
+* defaule constructor
+
+* paramatriced constructor
+
+
+29) What is the purpose of a default constructor?
+
+
+The purpose of the default constructor is to assign the default value to the objects.
+
+    
+
+32) Can you make a constructor final?
+
+No, constructors cannot be marked as final in Java
+
+
+
+No, the constructor can't be final.
+
+
+
+
+7) What is JIT compiler?
+
+JIT--just-in-time: to improve the program performance, to reduce the amount of time needed for complication,
+
+
+11) What is classloader?
+
+
+Classloader is a subsystem of JVM which is used to load class files. Whenever we run the java program, it is loaded first by the classloader
+
+* the java classloader is a part of the java runtime environment that dynamically loads java classes into the java virtual mechine
+
+
+23) What is object-oriented paradigm?
+
+
+
+
+42) Why is the main method static?
+
+Because the object is not required to call the static method. If we make the main method non-static, JVM will have to create its object first and then call main() method which will lead to the extra memory allocation
+
+
+
+44)Can we execute a program without main() method?
+
+
+Ans) No, It was possible before JDK 1.7 using the static block. Since JDK 1.7, it is not possible.
+
+
+
+
+
+21) what the different between JdK,Jre ,JVM
+
+22)java version
+
+23)what is the date type int, float,char ,boolen
+
+24) finall,finally finize
+
+
+
+25)how many create object to classs
+
+
+26)what is the copy constructor
+
+a copy constructor is a special type of constructor that creates an object using another object of the same Java class. It returns a duplicate copy of an existing object of the class.
+
+
+27)different betwwen static variable method block
+
+
+
+
+ 7 static variable
+ 
+* static variable doesnt not change object to object   ,single copy will be craeted at class level and shared by every object of the class
+
+static method
+-----------------
+ * static method doesnt change object to object single copy will be created at class level and shared by everyobject of the class
+
+
+static block
+------------
+* Static block only exeute the static variable
+
+
+
+Different between equals and ==
+
+equals                                                        ==
+
+equals method to compare content of the two object           == method to compare the address of the two object
+
+This is a method defined in the Object class.                     	It is a binary operator in Java.
+
+ 
+
+
+
+
+
+28) whare us the static variable
+
+29) static keyword do use the class
+
+30) string,string buuffer string builder
+
+when to string:
+
+* if the content is fixed and wont change frequently then we should go for string 
+
+when to string buffer
+
+* if the content is not fixed but thread safe is required then we dhould go for string buffer
+
+* thread is not required
+
+
+
+
+string                                               string buffer                                      string builder
+
+* string is a immutable                           * string buffer is a mutable                      * string builder is a mutable
+* it is not thread safety                          * it is  thread safety                           * it is not thread safety                           
+* it is not syschronized                             it is  syschronized                           it is not syschronized   
+                         
+
+
+
+31) different betwwen error and exception
+
+error :
+
+many time error not  occure by programmer and duo to lack of source program ,error is non recoverable
+
+eX: unchecked exception
+
+exception
+
+* many time exception occure by programmer and exception is a rocoverable 
+
+ex: checked and unchecked exception
+
+
+
+32)what is the jakuarray ?
+
+33)why string is immutable?
+* to momery management 
+
+34) different betwwen interface and abstraction
+
+
+ abstraction                                                                                    interface 
+  
+
+* abstraction have abstract method and non abstract method                       interface can have only abstract method
+
+* abstraction class not support the multiple inheritance                         interface suppor the multiple inheriatance
+
+* abstraction can have final non final,static non static varible                  interaface have only final and static
+
+* abstraction class implement by extends                                         interafce implement by implements                             
+
+
+
+
+35) what is the deadlog?
+
+Deadlock in Java is a part of multithreading. Deadlock can occur in a situation when a thread is waiting for an object lock, that is acquired by another thread and second thread is waiting for an object lock that is acquired by first thread. Since, both threads are waiting for each other to release the lock, the condition is called deadlock.
+
+36) why use the java ?
+
+37)what is the default methos and why is recquired
+
+
+
+
+38)what is the type interface
+
+39)what is the optional class
+
+40)advan of the optional class
+
+41)what are the java stream?
+
+42)what are teh main component there in java
+
+there are three type component like jvm,jre,jdk
+
+43)different between collection and collections
+
+
+
+44)different between constructor and method
+
+
+45)private comtruction is possible
+
+yes we can make constructor is private 
+
+46)main diffetent betwween platform and other platform
+
+47)what is the default value of the local variable and wgere to store the local and instance variable
+
+48)what are advange of the pacaksge?
+* remove the naming collision
+* to provide the access protection
+
+49)abstract method to declaer the satic or final
+
+No we cannt create abstruct method static and  final in java
+
+50) can we over load the constructor and finall
+
+yes constructor we can overload but not declear the final
+
+final constructor
+
+no,because constructor called automally
+
+51)different between arraylist and vector
+
+arraylist                                                                                         vector 
+
+
+ArrayList is not synchronized.	                                                               Vector is synchronized.
+
+ArrayList is not a legacy class. It is introduced in JDK 1.2.	                               Vector is a legacy class.
+
+ArrayList is fast because it is non-synchronized.	                                   Vector is slow because it is synchronized, 
+
+ArrayList uses the Iterator interface to traverse the elements.                         	A Vector can use the Iterator interface or Enumeration interface to traverse the elements.
+
+
+
+
+52 what is the purpose of the iterator  
+
+53) collection vs collections
+
+ collection                                                            collections
+  
+
+* is an interface                                                       is a  utility class  --- utility class means--it have set,list ,map
+
+* It doesn't has all static methods                                       It has all static method
+
+*	
+It is used to store list of object in a single object                             It is used to operate on collection.
+
+
+
+                                                      colletion
+                                                         -----------
+     group of object 
+                                                        
+what is the collection?
+
+* collection freamwork is a combination of thr classes and interface which is used to store and manipulate the data in the form of object 
+
+* it is provide various classed like arraylist linkedlist,set......exc 
+
+
+        array                                                                                                                   collection
+------------------------------------------------------------------------------------------------------------------------------------------
+ * array is always fixed size
+user canot increase or decreas the lendth of the array  according to their requirement at runtime                                 * collection is dynamic size
+  
+ 
+* array store only same datatype                                                                                                    * collection stored                                                                                                                                                                        
+                                                                                                                                        differen  t data type    
+
+*Arrays can hold both object and primitive type data.                                                                              * coolection can hold only object datatype 
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+
+list ----- arraylist ,linkedlist
+
+set------hashset,linked hashset,treeset
+
+
+map------hashmap,linkedhasp,tree map
+
+
+
+
+set
+
+ * Duplicate element are not allowed
+* Dont maintain the order
+* set is a child interface of the collection interface
+
+
+list 
+     
+     * duplicate element are allow 
+     *to maintain insertion order
+     *lis of interface
+   * list is index based
+     * list is child interface of collection interface
+----------------------------------------------------------------------------
+
+
+
+    Array                                                   Arraylist
+ 
+ * fixed size  array                                              * resizalble array or dynamic array
+
+ * is a basic data structure                                      * is a class
+
+ * it is store primitive data type and object                      *it is Strore object only
+
+ * collection of similar datatype                                   * collection of object
+
+
+
+
+Arraylist :
+---------
+
+             * arraylist uses a dynamic array to store the element
+
+            * arraylist contain duplicate element or non duplicate element
+             
+             *it is stroe object only
+            
+
+          ad----   * data retrieval is faster
+
+       disad-----    * add and remove of an element at first and middle possition needs to more shift operation
+
+when use  :
+---------  
+
+           * if you data is accessing in the list to go for arralist
+
+
+
+ method :
+          add();
+          add(index," ");
+          remove();
+          removeall();
+          size();
+          addAll();
+          clear();
+
+
+Syntax   :  Arraylist (object name) =new Arrayist();
+
+
+
+
+ Linkedlist
+-----------
+
+
+    * linkedlist class uses a doubly linked list to store the element 
+ 
+    * it has data part and link part
+
+     * linked list contain duplicate or non duplicate 
+
+     * linked list maintain insertion order
+
+   *  *it is stroe object only
+ 
+
+            
+   disad---   * data retrieval is slow 
+            
+   ad----           * data insertion and delete is better        
+            
+
+
+            
+  when 
+--------
+            * data change pannum pothu use pannum linkedlist----> if you manipulate the data to go for linkedlist
+
+
+specific method
+----------------
+                   * addfirst(),last();---->
+                   * getfirst(),last();
+                   *pollfirst(),last();----->firstelemet remove
+                   * removefirst(),last;
+                   *offerfirst(),last();----->add pannum element
+
+
+
+
+arraylist                                                                                                linkedlist
+
+* data retrival is fast                                                                                * data retrival is slow
+
+add and remove of an element at first and middle possition needs to more shift operation               * add and remove element is better 
+
+* ArrayList implements only List                                                                        * linkedlist implements  List  and queue
+ 
+
+*ArrayList is faster in storing and accessing data.                                                       *LinkedList is faster in manipulation of data.
+
+
+list 
+     
+     * duplicate element are allow 
+     *to maintain insertion order
+     *lis of interface
+   * list is index based
+     * list is child interface of collection interface
+
+
+
+
+Set :
+       *  duplicate element are not allow 
+       * doesnot maintain the order 
+       * set object
+
+  * set is child interface of collection interface
+
+                             Example : two team are playing frst team circket,second volley ball
+
+
+map
+----
+   * not a subinterface of the collection interface
+
+  * no duplicate key are allowed
+
+  * duplicate value are permitted 
+
+   * map is a collection of key pair value
+
+
+
+
+set
+----
+
+  * hashset();---->no order---->no duplicate element allow---->it is non synchorized---hashset allow null value
+
+ * linkeshashset();--->to maintain insertion order---->allow duplicate---->
+
+ * tree set();--->to assending  order-->same datatype--> doesnot allow the null element
+
+
+
+
+cursor  :
+          *useful for retrieving object one by one from collection
+
+
+* enumeration 
+---->interface----
+* iterator
+*listiterator
+*splitertor
+
+
+
+Iterator                                                        listitertor 
+---------
+* accessing the every element in the loop 
+
+         method                                                           method                      
+                 * next()---> atha value what?                              *
+                 *hasnext()----->next value irrukka
+                 * remove()---
+
+
+map
+----
+   * not a subinterface of the collection interface
+
+  * no duplicate key are allowed
+
+  * duplicate value are permitted 
+
+   * map is a collection of key pair value
+
+   
+
+entrys means --> key value pair
+
+
+
+   *hashmap();---> 
+
+                  * hashmap maintain no  order
+
+                  * hashmap is implemented by hastable
+
+                  * hashmap can be store by key or value
+
+                  * hashmap contain unquie element only
+
+                  
+
+
+   *linkedhashmap();---->
+                  
+
+                 * linkedhasmap maintain insertion order
+
+
+                 * 
+
+
+    *treemap();----->
+
+                    * tree map maintain ascending order
+
+                    *tree map implemented by a tree structure
+        
+                    * tree map store by key
+
+
+
+    *hashtable();----->
+   
+                 * hashtable is synchronized
+
+                 * it canot contain any null key or any null  value
+
+                 * it is a thread safe
+
+
+
+hasmap                                      hastable
+
+
+* hashamp have null one  key and value             cannot
+
+*not syncho                                            synch
+
+* map is faster becaue not threat safe                slow
+ 
+
+comparable
+
+          * comparable provide single sorting sequence
+
+         *  Comparable affects the original class, i.e., the actual class is modified.
+
+ 
+
+            * Comparable provides compareTo() method to sort elements.
+
+            *  Comparable is present in java.lang package.
+
+
+comparator
+
+         *The Comparator provides multiple sorting sequences.
+
+        *Comparator doesn't affect the original class, i.e., the actual class is not modified.
+
+
+       * Comparator provides compare() method to sort elements
+
+       * A Comparator is present in the java.util package. 
+
+
+ 
+*throws
+------
+
+declare the exception
+we can throw multiple exception at a time
+
+  
+
+      throw                                                                                     thorws  
+
+throw is used within the method	                                                   throws is used with the method .signature.
+ after throw we can mention only one exception object                                                  after throws ,we can give any no of exception class     
+
+
+ thorw is manily used for user defined exception                                          throws is manily used  for predefined exceotion
+
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------
+used to create exception                                          used to declear the exception
+
+used inside a method                                           used in method signature
+
+used mainly for user define  exception                               used mainly for predefined  exception
+
+throw keyword followed by instance                            throws keyword followed by class
+
+
+ 
+final                                                                    finally                                                                     
+
+* final is a modifier applicable for class method variable        finally is block always associate try catch and to maintain the clean code
+                                                                  
+
+
+finnalize
+
+*finalize is method which is always invoked by garbage collector just before destroying an object to preform clean up actives
+
+
+
+
+
+object class methods
+------------------
+
+* notify,tostring,finalize,getclass(),equals(), 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
