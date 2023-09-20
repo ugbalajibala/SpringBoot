@@ -1,0 +1,5 @@
+camunda.bpm.client :
+ base-url=http://localhost:9090/engine-rest
+ lock-duration=10000
+ 
+ process.definition -key=loanprocess
